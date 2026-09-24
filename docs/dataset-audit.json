@@ -1,0 +1,78 @@
+{
+  "sources": {
+    "train1": {
+      "rows": 2206821,
+      "countries": {
+        "US": 1323633,
+        "India": 883188
+      },
+      "missing": {}
+    },
+    "train2": {
+      "rows": 5034616,
+      "countries": {
+        "India": 2017799,
+        "US": 3016817
+      },
+      "missing": {
+        "business_address": 168967
+      }
+    },
+    "train3": {
+      "rows": 5285603,
+      "countries": {
+        "US": 3170056,
+        "India": 2115547
+      },
+      "missing": {
+        "business_address": 175916
+      }
+    },
+    "test1": {
+      "rows": 1732544,
+      "countries": {
+        "US": 663106,
+        "France": 259452,
+        "India": 809986
+      },
+      "missing": {}
+    },
+    "test2": {
+      "rows": 4887273,
+      "countries": {
+        "India": 2312565,
+        "France": 703378,
+        "US": 1871330
+      },
+      "missing": {
+        "business_address": 129408
+      }
+    },
+    "test3": {
+      "rows": 5082316,
+      "countries": {
+        "India": 2405000,
+        "France": 731615,
+        "US": 1945701
+      },
+      "missing": {
+        "business_address": 136098
+      }
+    }
+  },
+  "match_counts": {
+    "5": 321957,
+    "4": 484115,
+    "3": 530841,
+    "6": 164868,
+    "2": 375212,
+    "7": 63968,
+    "0": 123247,
+    "1": 119157,
+    "8": 18680,
+    "9": 4205,
+    "10": 534,
+    "11": 37
+  },
+  "links": 7638365
+}

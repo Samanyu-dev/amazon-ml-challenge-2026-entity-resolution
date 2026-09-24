@@ -1,0 +1,42 @@
+# Supplied or generated business data
+/dataset/
+/data/
+/artifacts/
+/reports/
+/output/
+/outputs/
+/dist/
+/cache/
+/models/
+*.tsv
+*.parquet
+*.arrow
+*.feather
+*.npy
+*.npz
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.zip
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.aws/
+.huggingface/
+
+# Python/editor/runtime files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.DS_Store

@@ -1,0 +1,19 @@
+{
+  "data_root_env": "DATA_ROOT",
+  "artifact_root_env": "ARTIFACT_ROOT",
+  "delimiter": "\t",
+  "encoding": "utf-8",
+  "preserve_empty_strings": true,
+  "country_vocabulary": "open",
+  "train_sources": [
+    "train/train_source1.tsv",
+    "train/train_source2.tsv",
+    "train/train_source3.tsv"
+  ],
+  "truth": "train/train_ground_truth.tsv",
+  "test_sources": [
+    "test/test_source1.tsv",
+    "test/test_source2.tsv",
+    "test/test_source3.tsv"
+  ]
+}

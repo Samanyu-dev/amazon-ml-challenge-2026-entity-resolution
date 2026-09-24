@@ -1,0 +1,58 @@
+{
+  "currency": "USD",
+  "stated_total": 670,
+  "working_total": 532,
+  "protected_reserve_total": 138,
+  "eligibility_verified": false,
+  "deadline": null,
+  "accounts": [
+    {
+      "alias": "aws-1",
+      "stated_balance": 100,
+      "working": 80,
+      "reserve": 20
+    },
+    {
+      "alias": "aws-2",
+      "stated_balance": 100,
+      "working": 80,
+      "reserve": 20
+    },
+    {
+      "alias": "aws-3",
+      "stated_balance": 100,
+      "working": 80,
+      "reserve": 20
+    },
+    {
+      "alias": "aws-4",
+      "stated_balance": 100,
+      "working": 60,
+      "reserve": 40
+    },
+    {
+      "alias": "hf-main",
+      "stated_balance": 180,
+      "working": 160,
+      "reserve": 20
+    },
+    {
+      "alias": "hf-pilot-1",
+      "stated_balance": 30,
+      "working": 24,
+      "reserve": 6
+    },
+    {
+      "alias": "hf-pilot-2",
+      "stated_balance": 30,
+      "working": 24,
+      "reserve": 6
+    },
+    {
+      "alias": "hf-pilot-3",
+      "stated_balance": 30,
+      "working": 24,
+      "reserve": 6
+    }
+  ]
+}
