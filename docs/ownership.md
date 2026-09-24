@@ -1,0 +1,21 @@
+# Issue ownership
+
+Ownership is allocated by related workstreams, with one primary owner per issue. This allocation does not assume prior knowledge of each collaborator's skills. Native issue assignees and project Assignees are authoritative once GitHub permits assignment.
+
+| Owner | Workstream | Issues | GitHub status |
+|---|---|---|---|
+| @mrlegendary25 | Data, features, infrastructure, inference, and packaging | [#1](https://github.com/Samanyu-dev/amazon-ml-challenge-2026-entity-resolution/issues/1), [#4](https://github.com/Samanyu-dev/amazon-ml-challenge-2026-entity-resolution/issues/4), [#5](https://github.com/Samanyu-dev/amazon-ml-challenge-2026-entity-resolution/issues/5), [#6](https://github.com/Samanyu-dev/amazon-ml-challenge-2026-entity-resolution/issues/6), [#10](https://github.com/Samanyu-dev/amazon-ml-challenge-2026-entity-resolution/issues/10), [#22](https://github.com/Samanyu-dev/amazon-ml-challenge-2026-entity-resolution/issues/22), [#23](https://github.com/Samanyu-dev/amazon-ml-challenge-2026-entity-resolution/issues/23), [#25](https://github.com/Samanyu-dev/amazon-ml-challenge-2026-entity-resolution/issues/25), [#27](https://github.com/Samanyu-dev/amazon-ml-challenge-2026-entity-resolution/issues/27) | Intended owner recorded; native assignment pending repository invitation acceptance |
+| @pranshustuff | Training data, models, calibration, decisions, and model freeze | [#9](https://github.com/Samanyu-dev/amazon-ml-challenge-2026-entity-resolution/issues/9), [#11](https://github.com/Samanyu-dev/amazon-ml-challenge-2026-entity-resolution/issues/11), [#14](https://github.com/Samanyu-dev/amazon-ml-challenge-2026-entity-resolution/issues/14), [#16](https://github.com/Samanyu-dev/amazon-ml-challenge-2026-entity-resolution/issues/16), [#17](https://github.com/Samanyu-dev/amazon-ml-challenge-2026-entity-resolution/issues/17), [#18](https://github.com/Samanyu-dev/amazon-ml-challenge-2026-entity-resolution/issues/18), [#19](https://github.com/Samanyu-dev/amazon-ml-challenge-2026-entity-resolution/issues/19), [#20](https://github.com/Samanyu-dev/amazon-ml-challenge-2026-entity-resolution/issues/20), [#24](https://github.com/Samanyu-dev/amazon-ml-challenge-2026-entity-resolution/issues/24) | Assigned |
+| @explorer271 | Retrieval, evaluation, country robustness, documentation, and handoff | [#2](https://github.com/Samanyu-dev/amazon-ml-challenge-2026-entity-resolution/issues/2), [#3](https://github.com/Samanyu-dev/amazon-ml-challenge-2026-entity-resolution/issues/3), [#7](https://github.com/Samanyu-dev/amazon-ml-challenge-2026-entity-resolution/issues/7), [#8](https://github.com/Samanyu-dev/amazon-ml-challenge-2026-entity-resolution/issues/8), [#12](https://github.com/Samanyu-dev/amazon-ml-challenge-2026-entity-resolution/issues/12), [#13](https://github.com/Samanyu-dev/amazon-ml-challenge-2026-entity-resolution/issues/13), [#15](https://github.com/Samanyu-dev/amazon-ml-challenge-2026-entity-resolution/issues/15), [#21](https://github.com/Samanyu-dev/amazon-ml-challenge-2026-entity-resolution/issues/21), [#26](https://github.com/Samanyu-dev/amazon-ml-challenge-2026-entity-resolution/issues/26), [#28](https://github.com/Samanyu-dev/amazon-ml-challenge-2026-entity-resolution/issues/28) | Assigned |
+
+## Pending invitation
+
+`mrlegendary25` has a pending write-access invitation. GitHub currently omits this user when an assignment is requested. The nine intended issues have `owner:mrlegendary25` and `assignment:pending-invite` labels and an explicit Owner line. They are not falsely represented as natively assigned. After acceptance, assign those nine issues, remove both pending labels, and update this document and the Owner lines. No automatic follow-up is scheduled.
+
+## Starting work
+
+- @mrlegendary25: #1 data contract, #4 environment, and #5 compute ledger are implementation-ready once repository access is accepted.
+- @explorer271: #2 scorer can start immediately; #3 split design follows #1 and #2.
+- @pranshustuff: review the model/data contracts now; begin #9 and subsequent training when their native blocking dependencies are complete.
+
+Keep execution Status separate from ownership. Assignment does not mean work has started, prerequisites are satisfied, or paid compute has been launched.

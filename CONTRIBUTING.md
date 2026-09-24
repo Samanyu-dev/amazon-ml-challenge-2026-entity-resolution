@@ -1,8 +1,8 @@
 # Team workflow
 
-## Claim work
+## Start assigned work
 
-Accept your repository invitation, open the private delivery project, and claim a Ready issue. Issues are unassigned initially; no skills or ownership have been inferred from usernames. Read native blocking relationships and the issue's dataset scope before coding. The Readiness field is maintained manually when dependencies close; it is not an automatic scheduler.
+Accept your repository invitation, open the private delivery project, and select your assigned Ready issue. See [issue ownership](docs/ownership.md) for the allocation and pending-invitation handling. Read native blocking relationships and the issue's dataset scope before coding. The Readiness field is maintained manually when dependencies close; it is not an automatic scheduler.
 
 Use a branch such as `issue-7-lexical-retrieval`, open a PR referencing the issue with `Closes #<number>`, and ask another team member to review correctness and evidence. Branch protection is not assumed configured. Avoid broad refactors in model experiments.
 

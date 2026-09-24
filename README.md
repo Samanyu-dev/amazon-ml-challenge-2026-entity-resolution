@@ -13,6 +13,7 @@ Private team workspace for resolving noisy Source 2/3 records to deduplicated So
 - [Validation and leakage policy](docs/validation.md)
 - [Compute budget and run gates](docs/compute-budget.md)
 - [Working agreements](CONTRIBUTING.md)
+- [Issue ownership](docs/ownership.md)
 
 ## Objective
 
@@ -48,11 +49,11 @@ Raw data, credentials, embeddings, model checkpoints, and generated outputs are 
 
 ## Team
 
-Repository owner: `Samanyu-dev`. Write-access invitations sent to `mrlegendary25`, `pranshustuff`, and `explorer271`; access depends on accepting invitations. The private project has writer access configured for these three users. Issues begin unassigned so the team can claim work based on skills and availability.
+Repository owner: `Samanyu-dev`. Write-access invitations sent to `mrlegendary25`, `pranshustuff`, and `explorer271`; access depends on accepting invitations. The private project has writer access configured for these three users. Issues are allocated by workstream: data/infrastructure to `mrlegendary25`, modeling/decisions to `pranshustuff`, and retrieval/evaluation to `explorer271`. See [ownership](docs/ownership.md) for the exact issue map and pending-invitation status.
 
-## First work to claim
+## First work to start
 
-Start with the four ready foundation issues: ingestion/data contract, exact scorer, package/environment, and compute ledger. Complete the grouped split issue before supervised modeling. The project **Readiness** field and native blocked-by links expose dependencies; update readiness when prerequisites close.
+Assigned owners should start with the four ready foundation issues: ingestion/data contract, exact scorer, package/environment, and compute ledger. Complete the grouped split issue before supervised modeling. The project **Readiness** field and native blocked-by links expose dependencies; update readiness when prerequisites close.
 
 ## Submission artifacts
 

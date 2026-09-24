@@ -2,7 +2,7 @@
 
 [Project](https://github.com/users/Samanyu-dev/projects/5) · [All issues](https://github.com/Samanyu-dev/amazon-ml-challenge-2026-entity-resolution/issues)
 
-All items are planned, initially unassigned, and linked with native blocked-by relationships. Ready means no implementation prerequisite; Optional means the experiment can close with a documented no-go. No due dates were invented because the deadline is unknown.
+All items are planned, allocated by workstream in [ownership](ownership.md), and linked with native blocked-by relationships. Nine intended assignments to `mrlegendary25` await invitation acceptance. Ready means no implementation prerequisite; Optional means the experiment can close with a documented no-go. No due dates were invented because the deadline is unknown.
 
 ## M0 — Reproducible foundations
 
