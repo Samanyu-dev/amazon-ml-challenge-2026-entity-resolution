@@ -2,6 +2,49 @@
 
 > **Final result:** best public **0.986382** (v8b). The final upload was v8b_fr14. Start with **[`docs/final/HANDOFF.md`](docs/final/HANDOFF.md)**. The code, models and submissions are in [`solution/`](solution/README.md).
 
+## Our path: day 1 to day 3
+
+Public leaderboard (macro F0.5 per Source-1 entity; France is 15% of test and has no training labels):
+
+```
+0.9624  v2 + decoder      ▏
+0.9720  v3                ████
+0.9814  v4                ████████
+0.9845  v6                █████████▌
+0.9842  v7a               █████████▍   (France hurt)
+0.9849  v7d               █████████▊
+0.9856  v7d_acr           ██████████▏  (French acronym rule)
+0.9864  v8b               ██████████▌  ← best scored
+```
+
+### Day 1: 25 Sep (baseline to a real pipeline)
+| Time | Version | What we did | Validation | **Public** |
+|---|---|---|---:|---:|
+| 13:14 / 14:27 | v2 | Lexical blocking + CatBoost; both uploads **failed** on the portal side, not the file | — | failed |
+| 20:06 | v2 + decoder | Per-entity expected-F0.5 decoder (can predict "no match") | 0.9739 | **0.962428** |
+| 22:51 | v3 | v3 normalisation (legal forms, transliteration, FR/IN address forms), dense e5-small ANN blocking, 63 C++ features | 0.98092 | **0.972** |
+
+### Day 2: 26 Sep (cross-encoders and France)
+| Time | Version | What we did | Validation | **Public** |
+|---|---|---|---:|---:|
+| 02:11 | v4 | Stage 2: fine-tuned multilingual-e5-small cross-encoder re-reads uncertain targets (Kaggle T4) | 0.98697 | **0.981393** |
+| 08:44 | v6 | + e5-base cross-encoder with 600k French pseudo-labels + group/decoy-context features | 0.98797 | **0.984462** |
+| 14:40 | v7a | + round-2 *hard* French pseudo-labels + decoy features. US/India up, **France down** | 0.98828 | **0.984178** |
+| 19:30 | v7d | + e5-large (560M, AWS A10G) for US/India; France from v6 with its weakest links trimmed (odds ×0.5) | 0.98865 | **0.984931** |
+| night | — | Fixed a cross-encoder coverage bug; orphan-density simulation | | |
+
+### Day 3: 27 Sep (leak fix, generator reverse-engineering, final)
+| Time | Version | What we did | Validation | **Public** |
+|---|---|---|---:|---:|
+| morning | v7e_all_loose18 | Looser decoding everywhere (×1.8) | −0.00024 | **0.984709** |
+| morning | v7e_fr_judge | + 12,257 French links backed by stage 1 | same | **0.984725** |
+| morning | — | Found a stage-2 **leak** (split by predicted anchor, not true owner): honest validation 0.98841. Qwen2.5-7B judge failed its gates. Upload freeze until offline evidence. | | |
+| afternoon | **v7d_acr** | **Generator audit.** Clean records are 99.7% correct, so the loss sits in specific synthetic-noise operations. **French acronym rule** (`BC` = **B**ordeaux **C**ollectif at the same address; 99.98% precise on train) | +0.00002 (US/IN) | **0.985608** |
+| evening | **v8b** | Acronym rule v2 + **Indian-script address-number rescue** (+0.00043) + leak-free stage 2 + **meta-model v3** with generator fingerprints (+0.00036) | 0.98877+ | **0.986382** |
+| 23:5x | v8b_fr14 | v8b with France odds ×1.4, chosen with a **labelled synthetic France** built from the real French S1 and run through the full pipeline | synthetic FR 0.9231 → 0.9299 | final upload |
+
+**Total:** 0.962428 → **0.986382** (+0.024) in three days. The full story, every tested idea with its measured result, and the lessons are in [`docs/final/HANDOFF.md`](docs/final/HANDOFF.md).
+
 # Amazon ML Challenge 2026 — Business Entity Resolution
 
 Private team workspace for resolving noisy Source 2/3 records to deduplicated Source 1 businesses.
