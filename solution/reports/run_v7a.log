@@ -1,0 +1,8 @@
+INTEGRITY train (1830768,) corr vs round1 0.9859 mean 0.4248
+INTEGRITY test (3282906,) corr vs round1 0.9699 mean 0.3403
+v6             val 0.98797  tuning 0.98810  gain vs v6 +0.000000 (SE 0.0e+00)
+v6+decoy       val 0.98821  tuning 0.98823  gain vs v6 +0.000238 (SE 4.3e-05)
+v6+CE          val 0.98809  tuning 0.98817  gain vs v6 +0.000126 (SE 3.6e-05)
+v6+decoy+CE    val 0.98828  tuning 0.98834  gain vs v6 +0.000307 (SE 4.4e-05)
+decoy on top of CE +0.000182 (SE 4.2e-05)
+V7A_DONE

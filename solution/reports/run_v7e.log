@@ -1,0 +1,7 @@
+INTEGRITY testa (2086337,) corr vs small 0.9352
+INTEGRITY testb (8333333,) corr vs small 0.9413
+stage2_v7e_usin  val 0.988751 vs stage2_v7d_all_val +0.000098 (SE 3.4e-05)
+stage2_v6cov     val 0.988067 vs stage2_v6_pp +0.000099 (SE 3.4e-05)
+written ../../outputs/final_submission_v7e/matching_results.tsv links 5818475
+V7E_BUILT
+EXIT 0

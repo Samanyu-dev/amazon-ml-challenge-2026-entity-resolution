@@ -1,0 +1,82 @@
+OWNER_SPLIT fit rows 4429260 dev rows 619796
+0:	learn: 0.5156362	test: 0.5147227	best: 0.5147227 (0)	total: 346ms	remaining: 11m 30s
+Stopped by overfitting detector  (100 iterations wait)
+
+bestTest = 0.00994688077
+bestIteration = 381
+
+Shrink model to first 382 iterations.
+{
+  "knobs": {
+    "missing": 0.1,
+    "empty_scale": 6,
+    "min_margin": 0.015,
+    "floor": 0.0
+  },
+  "tuning_85_89": 0.987996622129415,
+  "importance": {
+    "p": 22.460605907118698,
+    "rank_p": 5.501520915417158,
+    "ce": 2.634150331114189,
+    "rank_ce": 4.596252065686173,
+    "other_p": 2.429041533384923,
+    "other_ce": 5.403322844841301,
+    "ce_gap": 1.4005407968648016,
+    "p_gap": 4.1227313762239906,
+    "q_best": 10.701876169515977,
+    "n_cand": 0.0,
+    "ce2": 11.44332089144577,
+    "other_ce2": 13.250086134749743,
+    "ce_gap2": 2.4511968219126525,
+    "has_ce2": 0.0,
+    "conf_all": 1.739204300645376,
+    "conf_same_src": 7.182615019910116,
+    "sibling_name_eq": 1.1870485347592845,
+    "target_no_addr": 3.496486356409841
+  },
+  "v3_decoder_90_99": {
+    "macro_f05": 0.9809203333879958,
+    "precision": 0.9939170884504719,
+    "recall": 0.9578608828662758,
+    "links": 737147,
+    "singleton_false_merges": 272,
+    "by_country": {
+      "India": 0.9762072102939925,
+      "US": 0.9840432513675579
+    }
+  },
+  "v5_90_99": {
+    "macro_f05": 0.9870699816270712,
+    "precision": 0.9972952821144799,
+    "recall": 0.9670098510253041,
+    "links": 741667,
+    "singleton_false_merges": 141,
+    "by_country": {
+      "India": 0.9852542729067366,
+      "US": 0.9882730712335352
+    }
+  },
+  "v6_90_99": {
+    "macro_f05": 0.9877994851589387,
+    "precision": 0.9972024473206036,
+    "recall": 0.9693186646533184,
+    "links": 743507,
+    "singleton_false_merges": 108,
+    "by_country": {
+      "India": 0.9859742382726235,
+      "US": 0.9890088947594783
+    }
+  },
+  "paired_gain_vs_v3": {
+    "mean": 0.006879151770942964,
+    "se": 0.00013309148554925017
+  },
+  "paired_gain_vs_reference": {
+    "reference": "artifacts_v3/stage2_v6/val_entity_f.npy",
+    "mean": -0.0001691687118691843,
+    "se": 4.923846636677779e-05,
+    "better": 1375,
+    "worse": 972
+  }
+}
+DONE

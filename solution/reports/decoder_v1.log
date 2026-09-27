@@ -1,0 +1,168 @@
+{
+  "knobs_tuned_on_folds_85_89": {
+    "missing": 0.5,
+    "empty_scale": 2,
+    "min_margin": 0.015,
+    "floor": 0
+  },
+  "top_grid": [
+    {
+      "missing": 0.5,
+      "empty_scale": 2,
+      "min_margin": 0.015,
+      "floor": 0,
+      "macro_f05": 0.9736881559303368,
+      "precision": 0.9924195697906226,
+      "recall": 0.9420428497123575,
+      "links": 363172,
+      "singleton_false_merges": 266
+    },
+    {
+      "missing": 0.5,
+      "empty_scale": 2,
+      "min_margin": 0.015,
+      "floor": 0.3,
+      "macro_f05": 0.9736798785516155,
+      "precision": 0.9924595437170208,
+      "recall": 0.9419147762766177,
+      "links": 363108,
+      "singleton_false_merges": 262
+    },
+    {
+      "missing": 0.5,
+      "empty_scale": 2,
+      "min_margin": 0.015,
+      "floor": 0.5,
+      "macro_f05": 0.9736529845746308,
+      "precision": 0.9925076094591431,
+      "recall": 0.9417710203793588,
+      "links": 363035,
+      "singleton_false_merges": 255
+    },
+    {
+      "missing": 0.25,
+      "empty_scale": 2,
+      "min_margin": 0.015,
+      "floor": 0,
+      "macro_f05": 0.973614064381759,
+      "precision": 0.9926137428480085,
+      "recall": 0.941355435149101,
+      "links": 362836,
+      "singleton_false_merges": 274
+    },
+    {
+      "missing": 0.5,
+      "empty_scale": 2,
+      "min_margin": 0.015,
+      "floor": 0.6,
+      "macro_f05": 0.9736097158293306,
+      "precision": 0.9925477166534427,
+      "recall": 0.9416560156615515,
+      "links": 362976,
+      "singleton_false_merges": 252
+    },
+    {
+      "missing": 0.25,
+      "empty_scale": 2,
+      "min_margin": 0.015,
+      "floor": 0.3,
+      "macro_f05": 0.9735871647752089,
+      "precision": 0.9926400661567087,
+      "recall": 0.9412221342261882,
+      "links": 362775,
+      "singleton_false_merges": 271
+    },
+    {
+      "missing": 0.25,
+      "empty_scale": 2,
+      "min_margin": 0.015,
+      "floor": 0.5,
+      "macro_f05": 0.9735749672072602,
+      "precision": 0.9926909694459914,
+      "recall": 0.9410809920725157,
+      "links": 362702,
+      "singleton_false_merges": 264
+    },
+    {
+      "missing": 0.25,
+      "empty_scale": 2,
+      "min_margin": 0.015,
+      "floor": 0.6,
+      "macro_f05": 0.9735462020970195,
+      "precision": 0.9927339409063961,
+      "recall": 0.9409738285854681,
+      "links": 362645,
+      "singleton_false_merges": 261
+    }
+  ],
+  "tuning_85_89": {
+    "v2_t0.70": {
+      "macro_f05": 0.9733264657887468,
+      "precision": 0.9920197250382503,
+      "recall": 0.9422441079685201,
+      "links": 363396,
+      "singleton_false_merges": 236
+    },
+    "v2_t0.75": {
+      "macro_f05": 0.9733043140860721,
+      "precision": 0.9930793840237373,
+      "recall": 0.9395284283821188,
+      "links": 361962,
+      "singleton_false_merges": 205
+    },
+    "decoder": {
+      "macro_f05": 0.9736881559303368,
+      "precision": 0.9924195697906226,
+      "recall": 0.9420428497123575,
+      "links": 363172,
+      "singleton_false_merges": 266
+    }
+  },
+  "diagnostic_90_99": {
+    "v2_t0.70": {
+      "macro_f05": 0.973412748966995,
+      "precision": 0.9916290775070136,
+      "recall": 0.9427084763268161,
+      "links": 727160,
+      "singleton_false_merges": 486,
+      "by_country": {
+        "India": 0.9652970240891785,
+        "US": 0.9787902327781774
+      }
+    },
+    "v2_t0.75": {
+      "macro_f05": 0.9733991107819553,
+      "precision": 0.9927390059935302,
+      "recall": 0.9400270625379954,
+      "links": 724281,
+      "singleton_false_merges": 417,
+      "by_country": {
+        "India": 0.9653085659736391,
+        "US": 0.978759910265103
+      }
+    },
+    "decoder": {
+      "macro_f05": 0.9737365065290273,
+      "precision": 0.9920077623936799,
+      "recall": 0.9423162656312304,
+      "links": 726580,
+      "singleton_false_merges": 554,
+      "by_country": {
+        "India": 0.9658975187429429,
+        "US": 0.9789306241895398
+      }
+    },
+    "decoder_minus_v2_t0.70": {
+      "mean": 0.00032375756203238915,
+      "paired_se": 5.80773793568913e-05,
+      "entities_better": 1033,
+      "entities_worse": 1062
+    },
+    "decoder_minus_v2_t0.75": {
+      "mean": 0.0003373957470720524,
+      "paired_se": 8.062119717543487e-05,
+      "entities_better": 1657,
+      "entities_worse": 557
+    }
+  }
+}

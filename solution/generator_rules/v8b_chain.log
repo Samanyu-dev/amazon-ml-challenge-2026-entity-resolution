@@ -1,0 +1,9 @@
+  meta vs ctrl: +0.000168 ± 4.6e-05
+  meta vs q: +0.000358 ± 5.5e-05
+wrote /Users/apple/Documents/Codex/2026-09-25/what-are-the-god-level-solution/work/local_submission/artifacts_v3/stage2_v7e_usin_owner_meta3/
+written /private/tmp/claude-501/fable_review/v8b_base.tsv links 5809613
+acr2_add.npy: added 17,757 dup-skip 140 cap-skip 5
+ab_add.npy: added 7,440 dup-skip 4 cap-skip 2
+candidate pairs added 1,333,971
+PASS — no blocking issues found. Safe to submit.
+V8B_DONE

@@ -1,0 +1,112 @@
+0:	learn: 0.5151909	test: 0.5154363	best: 0.5154363 (0)	total: 280ms	remaining: 9m 19s
+500:	learn: 0.0197623	test: 0.0202872	best: 0.0202872 (447)	total: 1m 50s	remaining: 5m 31s
+Stopped by overfitting detector  (100 iterations wait)
+
+bestTest = 0.0202871666
+bestIteration = 447
+
+Shrink model to first 448 iterations.
+0:	learn: 0.5075037	test: 0.5077857	best: 0.5077857 (0)	total: 191ms	remaining: 6m 20s
+Stopped by overfitting detector  (100 iterations wait)
+
+bestTest = 0.02030024059
+bestIteration = 380
+
+Shrink model to first 381 iterations.
+0:	learn: 0.5372191	test: 0.5373486	best: 0.5373486 (0)	total: 226ms	remaining: 7m 32s
+500:	learn: 0.0197643	test: 0.0202790	best: 0.0202790 (488)	total: 1m 48s	remaining: 5m 25s
+Stopped by overfitting detector  (100 iterations wait)
+
+bestTest = 0.02027902506
+bestIteration = 488
+
+Shrink model to first 489 iterations.
+0:	learn: 0.5076996	test: 0.5079264	best: 0.5079264 (0)	total: 274ms	remaining: 9m 8s
+Stopped by overfitting detector  (100 iterations wait)
+
+bestTest = 0.02025653175
+bestIteration = 375
+
+Shrink model to first 376 iterations.
+0:	learn: 0.5421575	test: 0.5422493	best: 0.5422493 (0)	total: 361ms	remaining: 12m 1s
+500:	learn: 0.0197414	test: 0.0202444	best: 0.0202444 (433)	total: 2m 37s	remaining: 7m 50s
+Stopped by overfitting detector  (100 iterations wait)
+
+bestTest = 0.02024442064
+bestIteration = 433
+
+Shrink model to first 434 iterations.
+{
+  "knobs": {
+    "missing": 0.6,
+    "empty_scale": 6,
+    "min_margin": 0.015,
+    "floor": 0.0
+  },
+  "tuning_85_89": 0.9881072408647352,
+  "importance": {
+    "p": 2.877113819446369,
+    "rank_p": 1.0416452948083643,
+    "ce": 9.551022597618724,
+    "rank_ce": 2.7696187068889446,
+    "other_p": 3.907505712563723,
+    "other_ce": 12.812592797040718,
+    "ce_gap": 31.566772063432232,
+    "p_gap": 4.018949522168894,
+    "q_best": 11.702709496613878,
+    "n_cand": 0.0,
+    "ce2": 3.074352620692085,
+    "other_ce2": 6.2334118918626835,
+    "ce_gap2": 1.8351054086016405,
+    "has_ce2": 1.4423913390040235,
+    "conf_all": 0.4753209060185434,
+    "conf_same_src": 2.345846044894276,
+    "sibling_name_eq": 0.7820581345636689,
+    "target_no_addr": 3.5635836437812105
+  },
+  "v3_decoder_90_99": {
+    "macro_f05": 0.9809203333879958,
+    "precision": 0.9939170884504719,
+    "recall": 0.9578608828662758,
+    "links": 737147,
+    "singleton_false_merges": 272,
+    "by_country": {
+      "India": 0.9762072102939925,
+      "US": 0.9840432513675579
+    }
+  },
+  "v5_90_99": {
+    "macro_f05": 0.9870699816270712,
+    "precision": 0.9972952821144799,
+    "recall": 0.9670098510253041,
+    "links": 741667,
+    "singleton_false_merges": 141,
+    "by_country": {
+      "India": 0.9852542729067366,
+      "US": 0.9882730712335352
+    }
+  },
+  "v6_90_99": {
+    "macro_f05": 0.9879767185752057,
+    "precision": 0.9979503806147241,
+    "recall": 0.9681956346949582,
+    "links": 742089,
+    "singleton_false_merges": 101,
+    "by_country": {
+      "India": 0.9861122728541675,
+      "US": 0.9892121013454023
+    }
+  },
+  "paired_gain_vs_v3": {
+    "mean": 0.007056385187209949,
+    "se": 0.0001284919726338196
+  },
+  "paired_gain_vs_reference": {
+    "reference": "artifacts_v3/stage2_v6/val_entity_f.npy",
+    "mean": 8.064704397800501e-06,
+    "se": 2.3059704680766502e-05,
+    "better": 316,
+    "worse": 172
+  }
+}
+EXIT 0

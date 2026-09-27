@@ -1,0 +1,16 @@
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 4499.56it/s]
+8192/107240 210 pairs/s
+16384/107240 206 pairs/s
+24576/107240 214 pairs/s
+32768/107240 221 pairs/s
+40960/107240 223 pairs/s
+49152/107240 227 pairs/s
+57344/107240 233 pairs/s
+65536/107240 237 pairs/s
+73728/107240 240 pairs/s
+81920/107240 243 pairs/s
+90112/107240 241 pairs/s
+98304/107240 240 pairs/s
+106496/107240 241 pairs/s
+107240/107240 241 pairs/s
+INFER_DONE /private/tmp/claude-501/fable_review/sy_ce_train.npy

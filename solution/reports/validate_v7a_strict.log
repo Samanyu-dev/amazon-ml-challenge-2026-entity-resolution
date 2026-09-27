@@ -1,0 +1,8 @@
+ML Challenge 2026 — submission validator
+  test dir: /Users/apple/Downloads/student_resource/dataset/test
+  required S1 entities: 1732544
+  valid S2/S3 match IDs: 9969589
+  matching_results.tsv: 1732544 rows (100229 empty, 1632315 non-empty).
+
+WARNING: /nonexistent not found — skipping candidate_pairs.tsv checks. It is optional here, but your final submission zip must include output/candidate_pairs.tsv.
+PASS — no blocking issues found. Safe to submit.

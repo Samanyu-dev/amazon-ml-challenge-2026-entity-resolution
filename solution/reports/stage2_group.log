@@ -1,0 +1,72 @@
+0:	learn: 0.5389776	test: 0.5391019	best: 0.5391019 (0)	total: 209ms	remaining: 6m 58s
+250:	learn: 0.0215484	test: 0.0220467	best: 0.0220467 (250)	total: 33.9s	remaining: 3m 56s
+500:	learn: 0.0212663	test: 0.0218384	best: 0.0218384 (435)	total: 1m 7s	remaining: 3m 21s
+Stopped by overfitting detector  (100 iterations wait)
+
+bestTest = 0.02183837116
+bestIteration = 435
+
+Shrink model to first 436 iterations.
+{
+  "knobs": {
+    "missing": 0.1,
+    "empty_scale": 4,
+    "min_margin": 0.015,
+    "floor": 0.0
+  },
+  "tuning_85_89": 0.9873402323453483,
+  "importance": {
+    "p": 9.307137594104828,
+    "rank_p": 6.18646311017916,
+    "ce": 15.785942121554234,
+    "rank_ce": 3.8656516894497672,
+    "other_p": 4.334151994295707,
+    "other_ce": 16.12957972400891,
+    "ce_gap": 2.8868468689532314,
+    "p_gap": 3.588008439081487,
+    "q_best": 25.724910906889253,
+    "n_cand": 0.0,
+    "conf_all": 1.6029159667182311,
+    "conf_same_src": 4.1658680875185095,
+    "sibling_name_eq": 1.5030166046337883,
+    "target_no_addr": 4.919506892612873
+  },
+  "v3_decoder_90_99": {
+    "macro_f05": 0.9809203333879958,
+    "precision": 0.9939170884504719,
+    "recall": 0.9578608828662758,
+    "links": 737147,
+    "singleton_false_merges": 272,
+    "by_country": {
+      "India": 0.9762072102939925,
+      "US": 0.9840432513675579
+    }
+  },
+  "v4_top2_90_99": {
+    "macro_f05": 0.9869725359109747,
+    "precision": 0.9973853493216479,
+    "recall": 0.9664986697520574,
+    "links": 741208,
+    "singleton_false_merges": 156,
+    "by_country": {
+      "India": 0.9850924854726749,
+      "US": 0.9882182583754954
+    }
+  },
+  "top4_decoder_90_99": {
+    "macro_f05": 0.9873234995389563,
+    "precision": 0.99756740210951,
+    "recall": 0.967178501624406,
+    "links": 741594,
+    "singleton_false_merges": 162,
+    "by_country": {
+      "India": 0.9854801196918896,
+      "US": 0.9885449240493602
+    }
+  },
+  "paired_gain_vs_v3": {
+    "mean": 0.006403166150960527,
+    "se": 0.00012950709362290815
+  }
+}
+EXIT 0

@@ -1,0 +1,5 @@
+odds x0.35  synthetic-France macro F0.5 0.92047 (SE 0.00035)  precision 0.9806 recall 0.8166 links 636,287
+odds x0.5   synthetic-France macro F0.5 0.92311 (SE 0.00034)  precision 0.9784 recall 0.8267 links 645,637
+odds x0.7   synthetic-France macro F0.5 0.92560 (SE 0.00034)  precision 0.9760 recall 0.8373 links 655,453
+odds x1.0   synthetic-France macro F0.5 0.92806 (SE 0.00033)  precision 0.9734 recall 0.8485 links 666,082
+odds x1.4   synthetic-France macro F0.5 0.92987 (SE 0.00033)  precision 0.9704 recall 0.8585 links 675,951

@@ -1,0 +1,92 @@
+0:	learn: 0.5386961	test: 0.5387923	best: 0.5387923 (0)	total: 453ms	remaining: 15m 5s
+500:	learn: 0.0185891	test: 0.0192363	best: 0.0192363 (500)	total: 3m 25s	remaining: 10m 16s
+Stopped by overfitting detector  (100 iterations wait)
+
+bestTest = 0.01921081769
+bestIteration = 595
+
+Shrink model to first 596 iterations.
+{
+  "knobs": {
+    "missing": 0.25,
+    "empty_scale": 3,
+    "min_margin": 0.015,
+    "floor": 0.0
+  },
+  "tuning_85_89": 0.9883438651048749,
+  "importance": {
+    "p": 1.9143603970894236,
+    "rank_p": 9.69119482461226,
+    "ce": 9.090842111225278,
+    "rank_ce": 3.3932230461835893,
+    "other_p": 3.5349343444794097,
+    "other_ce": 5.849529596958899,
+    "ce_gap": 4.990275221662087,
+    "p_gap": 2.604139273637625,
+    "q_best": 31.62850000888416,
+    "n_cand": 0.0,
+    "ce2": 0.87136365649783,
+    "other_ce2": 1.1716157947992607,
+    "ce_gap2": 0.8542142621210773,
+    "has_ce2": 0.7463816047986692,
+    "ce3": 2.0309663704097463,
+    "other_ce3": 7.406409866203904,
+    "ce_gap3": 0.9626221309464028,
+    "has_ce3": 0.026655455611280684,
+    "conf_all": 0.9944618735888329,
+    "conf_same_src": 1.3832262581061252,
+    "sibling_name_eq": 0.7473062065067821,
+    "target_no_addr": 3.6523202815798297,
+    "twins_other_src": 0.9287833113597995,
+    "twins_same_src": 0.3789712883523223,
+    "addr_crowding": 2.029712949773773,
+    "addr_missing": 1.0668627634964927,
+    "anchor_load": 1.844926417159012,
+    "twins_confident_same_anchor": 0.20620068395611238
+  },
+  "v3_decoder_90_99": {
+    "macro_f05": 0.9809203333879958,
+    "precision": 0.9939170884504719,
+    "recall": 0.9578608828662758,
+    "links": 737147,
+    "singleton_false_merges": 272,
+    "by_country": {
+      "India": 0.9762072102939925,
+      "US": 0.9840432513675579
+    }
+  },
+  "v5_90_99": {
+    "macro_f05": 0.9870699816270712,
+    "precision": 0.9972952821144799,
+    "recall": 0.9670098510253041,
+    "links": 741667,
+    "singleton_false_merges": 141,
+    "by_country": {
+      "India": 0.9852542729067366,
+      "US": 0.9882730712335352
+    }
+  },
+  "v6_90_99": {
+    "macro_f05": 0.9882760648908244,
+    "precision": 0.9981517255501041,
+    "recall": 0.968684590695455,
+    "links": 742314,
+    "singleton_false_merges": 107,
+    "by_country": {
+      "India": 0.9864539922128326,
+      "US": 0.9894833712591664
+    }
+  },
+  "paired_gain_vs_v3": {
+    "mean": 0.007355731502828683,
+    "se": 0.0001295636374954779
+  },
+  "paired_gain_vs_reference": {
+    "reference": "artifacts_v3/stage2_v6/val_entity_f.npy",
+    "mean": 0.0003074110200165346,
+    "se": 4.434655294995299e-05,
+    "better": 1210,
+    "worse": 588
+  }
+}
+TEST_EXPORTED links 5821960

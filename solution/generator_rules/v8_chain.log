@@ -1,0 +1,9 @@
+test Indic rescue: targets scored 389,141; additions 7,446 (th 0.85); share of scope 0.0191
+written /private/tmp/claude-501/fable_review/v8_base.tsv links 5808759
+acr2_add.npy: added 17,822 dup-skip 75 cap-skip 5
+ab_add.npy: added 7,440 dup-skip 4 cap-skip 2
+candidate pairs added 1,333,971
+  candidate_pairs.tsv: 1732544 rows (0 empty, 1732544 non-empty).
+
+PASS — no blocking issues found. Safe to submit.
+V8_DONE

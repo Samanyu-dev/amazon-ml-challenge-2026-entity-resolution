@@ -1,0 +1,14 @@
+ctrl  report F 0.988599 P 0.99859 R 0.96856 tune 0.988576 {'India': 0.9868591497606386, 'US': 0.9897518711963338}
+meta  report F 0.988685 P 0.99851 R 0.96927 tune 0.988797 {'India': 0.9868190101412927, 'US': 0.9899206035781554}
+q     report F 0.988409
+  ctrl vs q: +0.000190 ± 4.3e-05
+  meta vs ctrl: +0.000085 ± 4.5e-05
+  meta vs q: +0.000275 ± 5.4e-05
+-- without name_accent:
+ctrl  report F 0.988599 P 0.99859 R 0.96856 tune 0.988576 {'India': 0.9868591497606386, 'US': 0.9897518711963338}
+meta  report F 0.988688 P 0.99851 R 0.96926 tune 0.988825 {'India': 0.986814195149218, 'US': 0.9899292859660526}
+q     report F 0.988409
+  ctrl vs q: +0.000190 ± 4.3e-05
+  meta vs ctrl: +0.000089 ± 4.4e-05
+  meta vs q: +0.000279 ± 5.4e-05
+wrote /Users/apple/Documents/Codex/2026-09-25/what-are-the-god-level-solution/work/local_submission/artifacts_v3/stage2_v7e_usin_owner_meta/

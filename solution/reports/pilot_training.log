@@ -1,0 +1,17 @@
+SAMPLES {'train': 156247, 'dev': 10337, 'positive_train': 108426, 'negative_train': 47821} seconds 0.08863592147827148
+QUANTIZED train
+QUANTIZED dev
+0:	learn: 0.5564263	test: 0.5410836	best: 0.5410836 (0)	total: 71.1ms	remaining: 56.8s
+100:	learn: 0.0772899	test: 0.0527845	best: 0.0527845 (100)	total: 1.31s	remaining: 9.07s
+200:	learn: 0.0615503	test: 0.0436218	best: 0.0436218 (200)	total: 2.55s	remaining: 7.6s
+300:	learn: 0.0547047	test: 0.0399116	best: 0.0399116 (300)	total: 3.77s	remaining: 6.24s
+400:	learn: 0.0503616	test: 0.0379355	best: 0.0379355 (400)	total: 4.96s	remaining: 4.93s
+500:	learn: 0.0474726	test: 0.0367054	best: 0.0366992 (495)	total: 6.13s	remaining: 3.66s
+600:	learn: 0.0446522	test: 0.0357510	best: 0.0357510 (600)	total: 7.33s	remaining: 2.43s
+700:	learn: 0.0424930	test: 0.0350463	best: 0.0350463 (700)	total: 8.52s	remaining: 1.2s
+799:	learn: 0.0412281	test: 0.0347087	best: 0.0347087 (799)	total: 9.64s	remaining: 0us
+
+bestTest = 0.0347087272
+bestIteration = 799
+
+TRAIN_COMPLETE 800 9.948286056518555

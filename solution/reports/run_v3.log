@@ -1,0 +1,336 @@
+=== 16:37:15 retrieve train
+=== 20:30:26 retrieve test
+=== 21:41:53 train model
+SAMPLES {'train': 8481873, 'dev': 598528, 'positive_train': 5639470, 'negative_train': 2842403} seconds 36.44517278671265
+QUANTIZED train
+QUANTIZED dev
+0:	learn: 0.5527231	test: 0.5396844	best: 0.5396844 (0)	total: 523ms	remaining: 34m 52s
+100:	learn: 0.0598936	test: 0.0370864	best: 0.0370864 (100)	total: 1m 5s	remaining: 42m 18s
+200:	learn: 0.0460228	test: 0.0284629	best: 0.0284629 (200)	total: 2m 10s	remaining: 41m 13s
+300:	learn: 0.0403109	test: 0.0248484	best: 0.0248484 (300)	total: 3m 13s	remaining: 39m 35s
+400:	learn: 0.0371792	test: 0.0229332	best: 0.0229332 (400)	total: 4m 17s	remaining: 38m 29s
+500:	learn: 0.0350424	test: 0.0216132	best: 0.0216132 (500)	total: 5m 19s	remaining: 37m 9s
+600:	learn: 0.0333596	test: 0.0205638	best: 0.0205638 (600)	total: 6m 20s	remaining: 35m 53s
+700:	learn: 0.0320541	test: 0.0197468	best: 0.0197468 (700)	total: 7m 23s	remaining: 34m 45s
+800:	learn: 0.0310831	test: 0.0191567	best: 0.0191567 (800)	total: 8m 26s	remaining: 33m 41s
+900:	learn: 0.0302914	test: 0.0186805	best: 0.0186805 (900)	total: 9m 29s	remaining: 32m 38s
+1000:	learn: 0.0296054	test: 0.0182860	best: 0.0182860 (1000)	total: 10m 33s	remaining: 31m 37s
+1100:	learn: 0.0290222	test: 0.0179512	best: 0.0179511 (1097)	total: 11m 34s	remaining: 30m 29s
+1200:	learn: 0.0286625	test: 0.0177493	best: 0.0177492 (1185)	total: 12m 36s	remaining: 29m 22s
+1300:	learn: 0.0284953	test: 0.0176664	best: 0.0176664 (1300)	total: 13m 35s	remaining: 28m 11s
+1400:	learn: 0.0284202	test: 0.0176225	best: 0.0176225 (1400)	total: 14m 31s	remaining: 26m 56s
+1500:	learn: 0.0283031	test: 0.0175527	best: 0.0175527 (1500)	total: 15m 34s	remaining: 25m 56s
+1600:	learn: 0.0280313	test: 0.0173994	best: 0.0173994 (1600)	total: 16m 33s	remaining: 24m 48s
+1700:	learn: 0.0277517	test: 0.0172368	best: 0.0172368 (1700)	total: 17m 34s	remaining: 23m 44s
+1800:	learn: 0.0275786	test: 0.0171398	best: 0.0171398 (1800)	total: 18m 35s	remaining: 22m 42s
+1900:	learn: 0.0275120	test: 0.0171026	best: 0.0171026 (1900)	total: 19m 35s	remaining: 21m 37s
+2000:	learn: 0.0274940	test: 0.0170911	best: 0.0170911 (2000)	total: 20m 35s	remaining: 20m 34s
+2100:	learn: 0.0274901	test: 0.0170890	best: 0.0170890 (2100)	total: 21m 38s	remaining: 19m 33s
+2200:	learn: 0.0274502	test: 0.0170659	best: 0.0170659 (2200)	total: 22m 39s	remaining: 18m 31s
+2300:	learn: 0.0273897	test: 0.0170321	best: 0.0170321 (2300)	total: 23m 42s	remaining: 17m 30s
+2400:	learn: 0.0273484	test: 0.0170052	best: 0.0170052 (2388)	total: 24m 40s	remaining: 16m 25s
+Stopped by overfitting detector  (100 iterations wait)
+
+bestTest = 0.01700520194
+bestIteration = 2388
+
+Shrink model to first 2389 iterations.
+TRAIN_COMPLETE 2389 1577.1795990467072
+=== 22:08:11 score train
+SCORED 2199989 targets 188605 seconds 5.5
+SCORED 4199996 targets 360135 seconds 8.6
+SCORED 6199990 targets 531660 seconds 11.6
+SCORED 8199996 targets 703302 seconds 14.7
+SCORED 10199996 targets 874990 seconds 17.8
+SCORED 12199999 targets 1046628 seconds 20.9
+SCORED 14197609 targets 1218016 seconds 24.0
+SCORED 16197605 targets 1389539 seconds 27.2
+SCORED 18197603 targets 1560921 seconds 30.3
+SCORED 20197602 targets 1732383 seconds 33.2
+SCORED 22197606 targets 1904047 seconds 36.2
+SCORED 24197602 targets 2075672 seconds 39.1
+SCORED 26197606 targets 2247410 seconds 42.0
+SCORED 28179378 targets 2417412 seconds 45.0
+SCORED 30179383 targets 2588923 seconds 47.9
+SCORED 32179382 targets 2760370 seconds 50.8
+SCORED 34179379 targets 2931945 seconds 53.7
+SCORED 36179376 targets 3103553 seconds 56.6
+SCORED 38179380 targets 3275190 seconds 59.4
+SCORED 40179381 targets 3446815 seconds 62.2
+SCORED 42184978 targets 3618762 seconds 65.0
+SCORED 44184980 targets 3790248 seconds 67.8
+SCORED 46184979 targets 3961701 seconds 70.6
+SCORED 48184982 targets 4133250 seconds 73.4
+SCORED 50184972 targets 4304870 seconds 76.1
+SCORED 52184976 targets 4476577 seconds 78.9
+SCORED 54125387 targets 4643084 seconds 81.6
+SCORED 56125380 targets 4814524 seconds 84.4
+SCORED 58125379 targets 4986049 seconds 87.3
+SCORED 60125383 targets 5157602 seconds 90.2
+SCORED 62125381 targets 5329280 seconds 93.0
+SCORED 64125385 targets 5500928 seconds 95.7
+SCORED 66125379 targets 5672507 seconds 98.5
+SCORED 68112619 targets 5842926 seconds 101.3
+SCORED 70112621 targets 6014403 seconds 104.2
+SCORED 72112619 targets 6185910 seconds 106.9
+SCORED 74112619 targets 6357403 seconds 109.7
+SCORED 76112627 targets 6529046 seconds 112.5
+SCORED 78112620 targets 6700740 seconds 115.6
+SCORED 80112624 targets 6872333 seconds 118.3
+SCORED 82118510 targets 7044327 seconds 121.2
+SCORED 84118503 targets 7215786 seconds 124.0
+SCORED 86118508 targets 7387233 seconds 126.8
+SCORED 88118506 targets 7558860 seconds 129.5
+SCORED 90118507 targets 7730536 seconds 132.3
+SCORED 92118500 targets 7902168 seconds 135.0
+SCORED 94097691 targets 8072018 seconds 137.8
+SCORED 96097697 targets 8243487 seconds 140.6
+SCORED 98097695 targets 8415001 seconds 143.4
+SCORED 100097692 targets 8586570 seconds 146.2
+SCORED 102097693 targets 8758188 seconds 149.0
+SCORED 104097693 targets 8929866 seconds 152.1
+SCORED 106097696 targets 9101512 seconds 154.8
+SCORED 108176309 targets 9279857 seconds 157.7
+SCORED 110176317 targets 9451376 seconds 160.5
+SCORED 112176312 targets 9622911 seconds 163.2
+SCORED 114176315 targets 9794426 seconds 165.8
+SCORED 116176313 targets 9966094 seconds 168.5
+SCORED 118176309 targets 10137739 seconds 171.2
+SCORED 120176313 targets 10309340 seconds 173.8
+SCORE_COMPLETE {'candidate_pairs': 120303028, 'target_groups': 10320219, 'target_universe': 10320219, 'anchor_universe': 2206821, 'best_feature_indices': [0, 1, 8, 13, 14, 16, 24, 26, 37, 42, 43, 52], 'best_dtype': [('aid', '<i4'), ('aid2', '<i4'), ('owner', '<i4'), ('afold', '<i4'), ('tfold', '<i4'), ('p', '<f4'), ('p2', '<f4'), ('cos', '<f4'), ('route', '<i4'), ('f', '<f4', (12,))], 'seconds': 174.09488892555237, 'model': 'artifacts_v3/model/model.cbm', 'source_pair_dirs': ['artifacts_v3/train_pairs'], 'max_lexical_rank': None, 'dense_min_dice': None}
+=== 22:11:06 calibrate
+CALIBRATION_FIT 516670 positives 373936
+VALIDATION {"calibration_fit_folds": [80, 85], "threshold_tuning_folds": [85, 90], "validation_folds": [90, 100], "threshold": 0.7749999999999999, "minimum_raw_margin": 0, "tuning_macro_f05": 0.9803908436484463, "tuning_anchors": 110503, "top_thresholds": [[0.9803938877229087, 0.7249999999999999, 0.015], [0.9803923626159986, 0.7499999999999999, 0.015], [0.9803908436484463, 0.7749999999999999, 0], [0.9803855436608913, 0.7499999999999999, 0], [0.9803803839352867, 0.7749999999999999, 0.015], [0.9803445897960833, 0.7249999999999999, 0], [0.9803265839841284, 0.7999999999999998, 0], [0.9803120897903279, 0.7999999999999998, 0.015], [0.980298721163422, 0.7249999999999999, 0.03], [0.980290861014738, 0.7499999999999999, 0.03], [0.9802813072517104, 0.7749999999999999, 0.03], [0.9802549846736827, 0.6999999999999998, 0.015], [0.9802111412863547, 0.7999999999999998, 0.03], [0.9801937678093291, 0.6999999999999998, 0], [0.9801875133916894, 0.8249999999999998, 0]], "validation": {"anchors": 220938, "macro_f05": 0.980627647864613, "precision": 0.9944296285013715, "recall": 0.9559782715274645, "true_links": 764895, "predicted_links": 735319, "true_positives": 731223, "singletons": 12590, "singleton_false_merges": 334, "by_country": {"India": {"anchors": 88051, "macro_f05": 0.9757733114208762}, "US": {"anchors": 132887, "macro_f05": 0.9838441338881327}}, "mean_standard_error": 0.00017607138663145846}}
+=== 22:11:10 decoder grid
+{
+  "knobs_tuned_on_folds_85_89": {
+    "missing": 0.25,
+    "empty_scale": 4.0,
+    "min_margin": 0.015,
+    "floor": 0.0
+  },
+  "top_grid": [
+    {
+      "missing": 0.25,
+      "empty_scale": 4.0,
+      "min_margin": 0.015,
+      "floor": 0.0,
+      "macro_f05": 0.9807133007530233,
+      "precision": 0.9940848320325755,
+      "recall": 0.9571424464117221,
+      "links": 368375,
+      "singleton_false_merges": 160
+    },
+    {
+      "missing": 0.5,
+      "empty_scale": 3.0,
+      "min_margin": 0.015,
+      "floor": 0.0,
+      "macro_f05": 0.9806651617692159,
+      "precision": 0.9938184875773028,
+      "recall": 0.9576782638469601,
+      "links": 368680,
+      "singleton_false_merges": 182
+    },
+    {
+      "missing": 0.5,
+      "empty_scale": 4.0,
+      "min_margin": 0.015,
+      "floor": 0.0,
+      "macro_f05": 0.9806640452689999,
+      "precision": 0.9938827384714713,
+      "recall": 0.9576076927701239,
+      "links": 368629,
+      "singleton_false_merges": 158
+    },
+    {
+      "missing": 0.75,
+      "empty_scale": 3.0,
+      "min_margin": 0.015,
+      "floor": 0.0,
+      "macro_f05": 0.9806515550941284,
+      "precision": 0.9936405702342905,
+      "recall": 0.9580807803592852,
+      "links": 368901,
+      "singleton_false_merges": 173
+    },
+    {
+      "missing": 0.25,
+      "empty_scale": 3.0,
+      "min_margin": 0.015,
+      "floor": 0.0,
+      "macro_f05": 0.9806515014866776,
+      "precision": 0.99401234986768,
+      "recall": 0.9572025625142122,
+      "links": 368425,
+      "singleton_false_merges": 187
+    },
+    {
+      "missing": 1.0,
+      "empty_scale": 3.0,
+      "min_margin": 0.015,
+      "floor": 0.0,
+      "macro_f05": 0.9806329685981684,
+      "precision": 0.9934550045105205,
+      "recall": 0.9585146617946486,
+      "links": 369137,
+      "singleton_false_merges": 170
+    },
+    {
+      "missing": 1.0,
+      "empty_scale": 4.0,
+      "min_margin": 0.015,
+      "floor": 0.0,
+      "macro_f05": 0.9806212943152074,
+      "precision": 0.9935111029228485,
+      "recall": 0.958451931948572,
+      "links": 369092,
+      "singleton_false_merges": 150
+    },
+    {
+      "missing": 0.75,
+      "empty_scale": 4.0,
+      "min_margin": 0.015,
+      "floor": 0.0,
+      "macro_f05": 0.9806157487363215,
+      "precision": 0.9936886281441639,
+      "recall": 0.958015436769622,
+      "links": 368858,
+      "singleton_false_merges": 155
+    }
+  ],
+  "tuning_85_89": {
+    "v2_t0.70": {
+      "macro_f05": 0.9802549846736827,
+      "precision": 0.9932645519274327,
+      "recall": 0.9582140812821981,
+      "links": 369092,
+      "singleton_false_merges": 202
+    },
+    "v2_t0.75": {
+      "macro_f05": 0.9803923626159986,
+      "precision": 0.9942329277539672,
+      "recall": 0.9561832025154668,
+      "links": 367951,
+      "singleton_false_merges": 179
+    },
+    "decoder": {
+      "macro_f05": 0.9807133007530233,
+      "precision": 0.9940848320325755,
+      "recall": 0.9571424464117221,
+      "links": 368375,
+      "singleton_false_merges": 160
+    }
+  },
+  "diagnostic_90_99": {
+    "v2_t0.70": {
+      "macro_f05": 0.9805258196290797,
+      "precision": 0.9932062622659066,
+      "recall": 0.9587080579687408,
+      "links": 738327,
+      "singleton_false_merges": 401,
+      "by_country": {
+        "India": 0.9758011811054293,
+        "US": 0.9836563677387213
+      }
+    },
+    "v2_t0.75": {
+      "macro_f05": 0.9806031867074155,
+      "precision": 0.9941140113155518,
+      "recall": 0.9567613855496506,
+      "links": 736155,
+      "singleton_false_merges": 351,
+      "by_country": {
+        "India": 0.9757313245709767,
+        "US": 0.9838312852646527
+      }
+    },
+    "decoder": {
+      "macro_f05": 0.9809351000819282,
+      "precision": 0.9939831789549675,
+      "recall": 0.9576477817216742,
+      "links": 736934,
+      "singleton_false_merges": 312,
+      "by_country": {
+        "India": 0.9762303631374195,
+        "US": 0.984052461394178
+      }
+    },
+    "decoder_minus_v2_t0.70": {
+      "mean": 0.0004092804528484901,
+      "paired_se": 6.482776254652612e-05,
+      "entities_better": 842,
+      "entities_worse": 1096
+    },
+    "decoder_minus_v2_t0.75": {
+      "mean": 0.00033191337451277895,
+      "paired_se": 5.434438882956636e-05,
+      "entities_better": 873,
+      "entities_worse": 357
+    }
+  }
+}
+=== 22:12:41 score test
+SCORED 2199992 targets 187207 seconds 5.1
+SCORED 4199994 targets 357301 seconds 7.2
+SCORED 6199988 targets 527491 seconds 9.3
+SCORED 8199989 targets 697803 seconds 11.4
+SCORED 10199992 targets 868165 seconds 13.5
+SCORED 12199998 targets 1038612 seconds 15.6
+SCORED 14177909 targets 1206973 seconds 18.0
+SCORED 16177900 targets 1377122 seconds 20.0
+SCORED 18177902 targets 1547296 seconds 22.0
+SCORED 20177908 targets 1717438 seconds 24.1
+SCORED 22177909 targets 1887841 seconds 26.3
+SCORED 24177906 targets 2058200 seconds 28.4
+SCORED 26199904 targets 2230410 seconds 30.5
+SCORED 28199906 targets 2400626 seconds 32.7
+SCORED 30199901 targets 2570792 seconds 34.8
+SCORED 32199900 targets 2740977 seconds 36.9
+SCORED 34199901 targets 2911410 seconds 39.0
+SCORED 36199897 targets 3081860 seconds 41.2
+SCORED 38199894 targets 3252158 seconds 43.3
+SCORED 40199599 targets 3422381 seconds 45.6
+SCORED 42199608 targets 3592578 seconds 47.7
+SCORED 44199603 targets 3762746 seconds 49.9
+SCORED 46199608 targets 3933035 seconds 52.0
+SCORED 48199610 targets 4103405 seconds 54.2
+SCORED 50199611 targets 4273810 seconds 56.5
+SCORED 52182822 targets 4442754 seconds 58.6
+SCORED 54182814 targets 4612850 seconds 60.9
+SCORED 56182819 targets 4783004 seconds 63.2
+SCORED 58182817 targets 4953139 seconds 65.5
+SCORED 60182820 targets 5123480 seconds 67.9
+SCORED 62182820 targets 5293854 seconds 70.2
+SCORED 64182824 targets 5464219 seconds 72.5
+SCORED 66016067 targets 5620337 seconds 74.7
+SCORED 68016064 targets 5790467 seconds 77.1
+SCORED 70016068 targets 5960645 seconds 79.5
+SCORED 72016061 targets 6130941 seconds 81.9
+SCORED 74016065 targets 6301288 seconds 84.4
+SCORED 76016062 targets 6471652 seconds 87.0
+SCORED 78016065 targets 6641988 seconds 89.5
+SCORED 80048270 targets 6814958 seconds 92.2
+SCORED 82048275 targets 6985112 seconds 94.8
+SCORED 84048269 targets 7155290 seconds 97.4
+SCORED 86048269 targets 7325689 seconds 100.1
+SCORED 88048268 targets 7496073 seconds 102.8
+SCORED 90048265 targets 7666415 seconds 105.5
+SCORED 92072936 targets 7838823 seconds 108.2
+SCORED 94072932 targets 8008962 seconds 111.1
+SCORED 96072931 targets 8179141 seconds 113.9
+SCORED 98072935 targets 8349372 seconds 116.6
+SCORED 100072941 targets 8519788 seconds 119.4
+SCORED 102072933 targets 8690185 seconds 122.1
+SCORED 104072934 targets 8860576 seconds 125.0
+SCORED 106074052 targets 9030822 seconds 127.8
+SCORED 108074055 targets 9201084 seconds 130.7
+SCORED 110074055 targets 9371252 seconds 133.5
+SCORED 112074055 targets 9541618 seconds 136.3
+SCORED 114074051 targets 9712009 seconds 139.3
+SCORED 116074052 targets 9882384 seconds 142.0
+SCORE_COMPLETE {'candidate_pairs': 117097579, 'target_groups': 9969589, 'target_universe': 9969589, 'anchor_universe': 1732544, 'best_feature_indices': [0, 1, 8, 13, 14, 16, 24, 26, 37, 42, 43, 52], 'best_dtype': [('aid', '<i4'), ('aid2', '<i4'), ('owner', '<i4'), ('afold', '<i4'), ('tfold', '<i4'), ('p', '<f4'), ('p2', '<f4'), ('cos', '<f4'), ('route', '<i4'), ('f', '<f4', (12,))], 'seconds': 143.63038682937622, 'model': 'artifacts_v3/model/model.cbm', 'source_pair_dirs': ['artifacts_v3/test_pairs'], 'max_lexical_rank': None, 'dense_min_dice': None}
+=== 22:15:05 calibrate test
+APPLIED 9969589
+=== 22:15:07 PIPELINE_DONE
+RUN_V3 EXIT 0

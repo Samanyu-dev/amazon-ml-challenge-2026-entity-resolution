@@ -1,0 +1,82 @@
+0:	learn: 0.5151909	test: 0.5154363	best: 0.5154363 (0)	total: 290ms	remaining: 9m 40s
+500:	learn: 0.0197623	test: 0.0202872	best: 0.0202872 (447)	total: 1m 47s	remaining: 5m 20s
+Stopped by overfitting detector  (100 iterations wait)
+
+bestTest = 0.0202871666
+bestIteration = 447
+
+Shrink model to first 448 iterations.
+{
+  "knobs": {
+    "missing": 0.25,
+    "empty_scale": 5,
+    "min_margin": 0.015,
+    "floor": 0.0
+  },
+  "tuning_85_89": 0.9881006752550213,
+  "importance": {
+    "p": 2.877113819446369,
+    "rank_p": 1.0416452948083643,
+    "ce": 9.551022597618724,
+    "rank_ce": 2.7696187068889446,
+    "other_p": 3.907505712563723,
+    "other_ce": 12.812592797040718,
+    "ce_gap": 31.566772063432232,
+    "p_gap": 4.018949522168894,
+    "q_best": 11.702709496613878,
+    "n_cand": 0.0,
+    "ce2": 3.074352620692085,
+    "other_ce2": 6.2334118918626835,
+    "ce_gap2": 1.8351054086016405,
+    "has_ce2": 1.4423913390040235,
+    "conf_all": 0.4753209060185434,
+    "conf_same_src": 2.345846044894276,
+    "sibling_name_eq": 0.7820581345636689,
+    "target_no_addr": 3.5635836437812105
+  },
+  "v3_decoder_90_99": {
+    "macro_f05": 0.9809203333879958,
+    "precision": 0.9939170884504719,
+    "recall": 0.9578608828662758,
+    "links": 737147,
+    "singleton_false_merges": 272,
+    "by_country": {
+      "India": 0.9762072102939925,
+      "US": 0.9840432513675579
+    }
+  },
+  "v5_90_99": {
+    "macro_f05": 0.9870699816270712,
+    "precision": 0.9972952821144799,
+    "recall": 0.9670098510253041,
+    "links": 741667,
+    "singleton_false_merges": 141,
+    "by_country": {
+      "India": 0.9852542729067366,
+      "US": 0.9882730712335352
+    }
+  },
+  "v6_90_99": {
+    "macro_f05": 0.9879686538708078,
+    "precision": 0.998038591884219,
+    "recall": 0.9679223945770334,
+    "links": 741814,
+    "singleton_false_merges": 110,
+    "by_country": {
+      "India": 0.9861641128785483,
+      "US": 0.9891643437344473
+    }
+  },
+  "paired_gain_vs_v3": {
+    "mean": 0.007048320482812148,
+    "se": 0.00012904909644656772
+  },
+  "paired_gain_vs_reference": {
+    "reference": "../local_submission/artifacts_v3/stage2_v6/val_entity_f.npy",
+    "mean": 0.0,
+    "se": 0.0,
+    "better": 0,
+    "worse": 0
+  }
+}
+TEST_EXPORTED links 666082

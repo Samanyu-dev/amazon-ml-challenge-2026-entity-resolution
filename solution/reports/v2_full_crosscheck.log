@@ -1,0 +1,12 @@
+SOURCE_ORDER_AND_HASH_PASS train_s1 2206821
+SOURCE_ORDER_AND_HASH_PASS train_s2 5034616
+SOURCE_ORDER_AND_HASH_PASS train_s3 5285603
+SOURCE_ORDER_AND_HASH_PASS test_s1 1732544
+SOURCE_ORDER_AND_HASH_PASS test_s2 4887273
+SOURCE_ORDER_AND_HASH_PASS test_s3 5082316
+RETRIEVED_VS_SCORED_EXACT_SET_PASS 88388722
+CANDIDATE_TSV_ROWS 400000
+CANDIDATE_TSV_ROWS 800000
+CANDIDATE_TSV_ROWS 1200000
+CANDIDATE_TSV_ROWS 1600000
+FULL_AUDIT_PASS {"raw_normalized_order_and_hash": "PASS", "generation": "d56c6a3ec9962c00d068bd52", "candidate_exact_set": {"retrieval_rows": 88388722, "scored_rows": 88388722, "tsv_pairs": 88388722, "tsv_anchor_rows": 1732544, "status": "PASS"}, "full_repeat_inference": "BYTE_IDENTICAL", "archive_contents_match": true, "sha256": {"matching_results.tsv": "a3bb6c1cd7932efa1166cf241e748b2a61ffa9c965be0469de30a65ad28d8712", "candidate_pairs.tsv": "6c8a52ad889bf279019cc16da8c7660dd229a22afcc7b6ae6758cc82063c41ce"}}

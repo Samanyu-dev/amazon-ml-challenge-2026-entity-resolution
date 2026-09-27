@@ -1,0 +1,13 @@
+written /private/tmp/claude-501/fable_review/v8b_fr035.tsv links 5804095
+acr2_add.npy: added 17,757 dup-skip 140 cap-skip 5
+ab_add.npy: added 7,440 dup-skip 4 cap-skip 2
+candidate pairs added 1,333,971
+PASS — no blocking issues found. Safe to submit.
+416a1b27
+written /private/tmp/claude-501/fable_review/v8b_fr07.tsv links 5815065
+acr2_add.npy: added 16,857 dup-skip 1039 cap-skip 6
+ab_add.npy: added 7,440 dup-skip 4 cap-skip 2
+candidate pairs added 1,333,971
+PASS — no blocking issues found. Safe to submit.
+1574f3b8
+VARIANTS_DONE

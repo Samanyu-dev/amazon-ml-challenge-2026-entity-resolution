@@ -1,0 +1,15 @@
+DENSE_PAIRS 4882228
+INDEX 200000 terms=421495
+INDEX_COMPLETE anchors=220535 terms=454543 seconds=0.923877
+QUERY 102400 pairs=1270811 sec=21.6344 qps=4733.2 link_recall=0
+QUERY 204800 pairs=2499073 sec=41.6765 qps=4914.04 link_recall=0
+QUERY 307200 pairs=3731528 sec=62.0262 qps=4952.74 link_recall=0
+QUERY 409600 pairs=4989272 sec=83.0868 qps=4929.79 link_recall=0
+QUERY 512000 pairs=6219613 sec=103.642 qps=4940.08 link_recall=0
+QUERY 614400 pairs=7458031 sec=124.524 qps=4933.99 link_recall=0
+QUERY 716800 pairs=8689653 sec=145.51 qps=4926.12 link_recall=0
+QUERY 819200 pairs=9934520 sec=166.715 qps=4913.78 link_recall=0
+QUERY 921600 pairs=11162896 sec=187.491 qps=4915.45 link_recall=0
+QUERY 1024000 pairs=12413362 sec=208.68 qps=4907.03 link_recall=0
+QUERY 1126400 pairs=13641643 sec=229.656 qps=4904.72 link_recall=0
+DONE queries=1220557 pairs=14753863 link_recall=0

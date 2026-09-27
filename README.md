@@ -1,3 +1,7 @@
+# Amazon ML Challenge 2026: Business Entity Resolution
+
+> **Final result:** best public **0.986382** (v8b). The final upload was v8b_fr14. Start with **[`docs/final/HANDOFF.md`](docs/final/HANDOFF.md)**. The code, models and submissions are in [`solution/`](solution/README.md).
+
 # Amazon ML Challenge 2026 — Business Entity Resolution
 
 Private team workspace for resolving noisy Source 2/3 records to deduplicated Source 1 businesses.

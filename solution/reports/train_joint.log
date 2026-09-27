@@ -1,0 +1,26 @@
+real rows 8481873 172 s
+France pseudo rows 599346 positives 6016581 300 s
+0:	learn: 0.5531928	test: 0.5422244	best: 0.5422244 (0)	total: 1.14s	remaining: 1h 16m 8s
+250:	learn: 0.0410062	test: 0.0267643	best: 0.0267643 (250)	total: 4m 14s	remaining: 1h 3m 26s
+500:	learn: 0.0334272	test: 0.0217912	best: 0.0217912 (500)	total: 8m	remaining: 55m 55s
+750:	learn: 0.0300143	test: 0.0195653	best: 0.0195653 (750)	total: 11m 45s	remaining: 50m 52s
+1000:	learn: 0.0283757	test: 0.0185500	best: 0.0185500 (1000)	total: 15m 1s	remaining: 44m 59s
+1250:	learn: 0.0273593	test: 0.0179552	best: 0.0179537 (1249)	total: 18m 20s	remaining: 40m 17s
+1500:	learn: 0.0271202	test: 0.0178034	best: 0.0178034 (1500)	total: 21m 37s	remaining: 35m 59s
+1750:	learn: 0.0267809	test: 0.0175934	best: 0.0175934 (1747)	total: 24m 49s	remaining: 31m 52s
+2000:	learn: 0.0265392	test: 0.0174590	best: 0.0174590 (2000)	total: 27m 59s	remaining: 27m 57s
+2250:	learn: 0.0262513	test: 0.0172884	best: 0.0172884 (2250)	total: 31m 6s	remaining: 24m 10s
+2500:	learn: 0.0261059	test: 0.0172104	best: 0.0172104 (2500)	total: 34m 35s	remaining: 20m 43s
+2750:	learn: 0.0260908	test: 0.0171996	best: 0.0171996 (2750)	total: 38m 39s	remaining: 17m 33s
+3000:	learn: 0.0260434	test: 0.0171777	best: 0.0171777 (3000)	total: 41m 48s	remaining: 13m 54s
+3250:	learn: 0.0259921	test: 0.0171467	best: 0.0171467 (3213)	total: 44m 49s	remaining: 10m 19s
+3500:	learn: 0.0259814	test: 0.0171410	best: 0.0171410 (3500)	total: 47m 46s	remaining: 6m 48s
+3750:	learn: 0.0259086	test: 0.0170919	best: 0.0170919 (3750)	total: 50m 48s	remaining: 3m 22s
+3999:	learn: 0.0259048	test: 0.0170901	best: 0.0170901 (3989)	total: 53m 49s	remaining: 0us
+
+bestTest = 0.01709010571
+bestIteration = 3989
+
+Shrink model to first 3990 iterations.
+TRAIN_COMPLETE 3990 3540
+EXIT 0

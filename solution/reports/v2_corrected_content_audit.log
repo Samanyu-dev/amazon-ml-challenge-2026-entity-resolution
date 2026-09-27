@@ -1,0 +1,6 @@
+AUDITED 0 / 1732544
+AUDITED 400000 / 1732544
+AUDITED 800000 / 1732544
+AUDITED 1200000 / 1732544
+AUDITED 1600000 / 1732544
+{"format_and_raw_ids_pass": true, "model_decisions_pass": true, "statistics": {"wrong_model_decisions": 0, "rows": 1732544, "links": 5803258, "empty_rows": 97623, "missing_model_decisions": 0}, "by_country": {"US": {"rows": 663106, "links": 2215878, "empty_rows": 38098}, "France": {"rows": 259452, "links": 921208, "empty_rows": 11740}, "India": {"rows": 809986, "links": 2666172, "empty_rows": 47785}}, "sha256": "a3bb6c1cd7932efa1166cf241e748b2a61ffa9c965be0469de30a65ad28d8712", "bytes": 97226618, "probabilities": "/Users/apple/Documents/Codex/2026-09-25/what-are-the-god-level-solution/work/local_submission/artifacts/test_calibration_dense/probabilities.npy", "selection": 0.6999999999999998}

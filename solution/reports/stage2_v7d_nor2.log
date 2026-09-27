@@ -1,0 +1,92 @@
+0:	learn: 0.5420353	test: 0.5421274	best: 0.5421274 (0)	total: 574ms	remaining: 19m 7s
+500:	learn: 0.0176995	test: 0.0182552	best: 0.0182552 (456)	total: 4m 2s	remaining: 12m 5s
+Stopped by overfitting detector  (100 iterations wait)
+
+bestTest = 0.01825517708
+bestIteration = 456
+
+Shrink model to first 457 iterations.
+{
+  "knobs": {
+    "missing": 0.25,
+    "empty_scale": 2,
+    "min_margin": 0.015,
+    "floor": 0.0
+  },
+  "tuning_85_89": 0.9886971087298132,
+  "importance": {
+    "p": 3.570241208648715,
+    "rank_p": 1.9338593108847835,
+    "ce": 12.614236697409158,
+    "rank_ce": 2.775915177482068,
+    "other_p": 5.633873889147326,
+    "other_ce": 17.977133488698,
+    "ce_gap": 5.383453069646123,
+    "p_gap": 3.7994353090697346,
+    "q_best": 18.85925229310179,
+    "n_cand": 0.0,
+    "ce2": 0.8136286301343545,
+    "other_ce2": 3.286324718064001,
+    "ce_gap2": 0.8213029127631843,
+    "has_ce2": 0.10307303766371856,
+    "ce3": 2.848295949984194,
+    "other_ce3": 3.9204692533797236,
+    "ce_gap3": 1.8053626167119494,
+    "has_ce3": 0.05731047896047781,
+    "conf_all": 1.0549809709147662,
+    "conf_same_src": 2.3066836062489626,
+    "sibling_name_eq": 1.0999845474816463,
+    "target_no_addr": 1.8475415434233236,
+    "twins_other_src": 0.6429914564663121,
+    "twins_same_src": 0.5526051675184247,
+    "addr_crowding": 2.393706134757216,
+    "addr_missing": 1.1321650409141983,
+    "anchor_load": 2.566445692168152,
+    "twins_confident_same_anchor": 0.1997277983576544
+  },
+  "v3_decoder_90_99": {
+    "macro_f05": 0.9809203333879958,
+    "precision": 0.9939170884504719,
+    "recall": 0.9578608828662758,
+    "links": 737147,
+    "singleton_false_merges": 272,
+    "by_country": {
+      "India": 0.9762072102939925,
+      "US": 0.9840432513675579
+    }
+  },
+  "v5_90_99": {
+    "macro_f05": 0.9870699816270712,
+    "precision": 0.9972952821144799,
+    "recall": 0.9670098510253041,
+    "links": 741667,
+    "singleton_false_merges": 141,
+    "by_country": {
+      "India": 0.9852542729067366,
+      "US": 0.9882730712335352
+    }
+  },
+  "v6_90_99": {
+    "macro_f05": 0.9886045367720611,
+    "precision": 0.9983127192421376,
+    "recall": 0.9692336856692748,
+    "links": 742615,
+    "singleton_false_merges": 114,
+    "by_country": {
+      "India": 0.9868400100744125,
+      "US": 0.9897737131418688
+    }
+  },
+  "paired_gain_vs_v3": {
+    "mean": 0.007684203384065327,
+    "se": 0.00013126913824747615
+  },
+  "paired_gain_vs_reference": {
+    "reference": "artifacts_v3/stage2_v7a_pp/val_entity_f.npy",
+    "mean": 0.000328471881236645,
+    "se": 4.748047756031838e-05,
+    "better": 1093,
+    "worse": 574
+  }
+}
+TEST_EXPORTED links 5829036

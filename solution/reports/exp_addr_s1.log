@@ -1,0 +1,97 @@
+0:	learn: 0.5306721	test: 0.5308197	best: 0.5308197 (0)	total: 315ms	remaining: 10m 30s
+Stopped by overfitting detector  (100 iterations wait)
+
+bestTest = 0.01771405842
+bestIteration = 395
+
+Shrink model to first 396 iterations.
+{
+  "knobs": {
+    "missing": 0.6,
+    "empty_scale": 3,
+    "min_margin": 0.015,
+    "floor": 0.0
+  },
+  "tuning_85_89": 0.9888176646435499,
+  "importance": {
+    "p": 0.7901697032044159,
+    "rank_p": 0.5071471306170389,
+    "ce": 2.22440476722826,
+    "rank_ce": 5.608830894356159,
+    "other_p": 2.532993852107832,
+    "other_ce": 3.570968125613094,
+    "ce_gap": 1.069944445790396,
+    "p_gap": 3.0979181364238877,
+    "q_best": 37.35018662028608,
+    "n_cand": 0.0,
+    "ce2": 0.6921723100474584,
+    "other_ce2": 2.501265418567506,
+    "ce_gap2": 0.5705993521621874,
+    "has_ce2": 0.0,
+    "ce3": 0.8937853357727166,
+    "other_ce3": 3.416270008531906,
+    "ce_gap3": 1.070333964304526,
+    "has_ce3": 0.0,
+    "ce4": 8.633582193029412,
+    "other_ce4": 4.751937568352787,
+    "ce_gap4": 3.0443874238219903,
+    "has_ce4": 0.0,
+    "conf_all": 1.1212963199487815,
+    "conf_same_src": 2.538973501938174,
+    "sibling_name_eq": 0.2626439728429313,
+    "target_no_addr": 3.5548447800323983,
+    "twins_other_src": 0.478640782865477,
+    "twins_same_src": 0.573617796590187,
+    "addr_crowding": 3.305068891726126,
+    "addr_missing": 0.37514884225475265,
+    "anchor_load": 2.0283441441642336,
+    "twins_confident_same_anchor": 0.27792672160741966,
+    "s1_companies_at_address": 2.061495310367799,
+    "candidate_at_exact_address": 0.0,
+    "name_core_exact": 1.095101685444059
+  },
+  "v3_decoder_90_99": {
+    "macro_f05": 0.9809203333879958,
+    "precision": 0.9939170884504719,
+    "recall": 0.9578608828662758,
+    "links": 737147,
+    "singleton_false_merges": 272,
+    "by_country": {
+      "India": 0.9762072102939925,
+      "US": 0.9840432513675579
+    }
+  },
+  "v5_90_99": {
+    "macro_f05": 0.9870699816270712,
+    "precision": 0.9972952821144799,
+    "recall": 0.9670098510253041,
+    "links": 741667,
+    "singleton_false_merges": 141,
+    "by_country": {
+      "India": 0.9852542729067366,
+      "US": 0.9882730712335352
+    }
+  },
+  "v6_90_99": {
+    "macro_f05": 0.9887780112261035,
+    "precision": 0.9983147398345968,
+    "recall": 0.9696232816268899,
+    "links": 742912,
+    "singleton_false_merges": 86,
+    "by_country": {
+      "India": 0.9870192325413053,
+      "US": 0.9899433789594045
+    }
+  },
+  "paired_gain_vs_v3": {
+    "mean": 0.00785767783810791,
+    "se": 0.0001306114544534354
+  },
+  "paired_gain_vs_reference": {
+    "reference": "artifacts_v3/exp_large4_val/val_entity_f.npy",
+    "mean": 2.7108386191122334e-05,
+    "se": 2.9012516584212648e-05,
+    "better": 386,
+    "worse": 330
+  }
+}

@@ -1,0 +1,7 @@
+written /private/tmp/claude-501/fable_review/v8b_fr14.tsv links 5826492
+acr2_add.npy: added 15,059 dup-skip 2835 cap-skip 8
+ab_add.npy: added 7,440 dup-skip 4 cap-skip 2
+candidate pairs added 1,333,971
+PASS — no blocking issues found. Safe to submit.
+08ef0249
+FR14_DONE

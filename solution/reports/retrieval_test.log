@@ -1,0 +1,107 @@
+INDEX 200000 terms=786362
+INDEX 400000 terms=1264763
+INDEX 600000 terms=1694859
+INDEX 800000 terms=2098598
+INDEX 1000000 terms=2485479
+INDEX 1200000 terms=2859661
+INDEX 1400000 terms=3223977
+INDEX 1600000 terms=3580047
+INDEX_COMPLETE anchors=1732544 terms=3812068 seconds=31.9751
+QUERY 102400 pairs=938107 sec=70.1432 qps=1459.87 link_recall=0
+QUERY 204800 pairs=1870948 sec=140.074 qps=1462.09 link_recall=0
+QUERY 307200 pairs=2779804 sec=208.056 qps=1476.53 link_recall=0
+QUERY 409600 pairs=3712552 sec=276.449 qps=1481.65 link_recall=0
+QUERY 512000 pairs=4624602 sec=345.283 qps=1482.84 link_recall=0
+QUERY 614400 pairs=5557998 sec=414.348 qps=1482.81 link_recall=0
+QUERY 716800 pairs=6482874 sec=483.004 qps=1484.05 link_recall=0
+QUERY 819200 pairs=7403440 sec=552.088 qps=1483.82 link_recall=0
+QUERY 921600 pairs=8331341 sec=621.28 qps=1483.39 link_recall=0
+QUERY 1024000 pairs=9251431 sec=689.618 qps=1484.88 link_recall=0
+QUERY 1126400 pairs=10179362 sec=758.986 qps=1484.08 link_recall=0
+QUERY 1228800 pairs=11093911 sec=827.451 qps=1485.04 link_recall=0
+QUERY 1331200 pairs=12026315 sec=897.144 qps=1483.82 link_recall=0
+QUERY 1433600 pairs=12942936 sec=967.609 qps=1481.59 link_recall=0
+QUERY 1536000 pairs=13866157 sec=1044.47 qps=1470.6 link_recall=0
+QUERY 1638400 pairs=14793136 sec=1108.77 qps=1477.67 link_recall=0
+QUERY 1740800 pairs=15719391 sec=1175.56 qps=1480.83 link_recall=0
+QUERY 1843200 pairs=16643448 sec=1243.9 qps=1481.79 link_recall=0
+QUERY 1945600 pairs=17569567 sec=1307.46 qps=1488.08 link_recall=0
+QUERY 2048000 pairs=18488527 sec=1371.2 qps=1493.59 link_recall=0
+QUERY 2150400 pairs=19417232 sec=1435.84 qps=1497.66 link_recall=0
+QUERY 2252800 pairs=20333110 sec=1502.18 qps=1499.69 link_recall=0
+QUERY 2355200 pairs=21262083 sec=1570.96 qps=1499.21 link_recall=0
+QUERY 2457600 pairs=22183414 sec=1636.9 qps=1501.37 link_recall=0
+QUERY 2560000 pairs=23106323 sec=1725.75 qps=1483.41 link_recall=0
+QUERY 2662400 pairs=24033121 sec=1846.9 qps=1441.55 link_recall=0
+QUERY 2764800 pairs=24956554 sec=1972.64 qps=1401.58 link_recall=0
+QUERY 2867200 pairs=25883147 sec=2022.8 qps=1417.44 link_recall=0
+QUERY 2969600 pairs=26798386 sec=2071.34 qps=1433.66 link_recall=0
+QUERY 3072000 pairs=27726762 sec=2130.82 qps=1441.7 link_recall=0
+QUERY 3174400 pairs=28650920 sec=2198.6 qps=1443.83 link_recall=0
+QUERY 3276800 pairs=29572120 sec=2257.26 qps=1451.67 link_recall=0
+QUERY 3379200 pairs=30497993 sec=2318.72 qps=1457.35 link_recall=0
+QUERY 3481600 pairs=31423093 sec=2387.47 qps=1458.28 link_recall=0
+QUERY 3584000 pairs=32341268 sec=2459.64 qps=1457.12 link_recall=0
+QUERY 3686400 pairs=33267666 sec=2529.19 qps=1457.54 link_recall=0
+QUERY 3788800 pairs=34193173 sec=2598.86 qps=1457.87 link_recall=0
+QUERY 3891200 pairs=35116873 sec=2667.62 qps=1458.68 link_recall=0
+QUERY 3993600 pairs=36044625 sec=2737.04 qps=1459.1 link_recall=0
+QUERY 4096000 pairs=36960895 sec=2805.65 qps=1459.91 link_recall=0
+QUERY 4198400 pairs=37887640 sec=2873.62 qps=1461.01 link_recall=0
+QUERY 4300800 pairs=38809378 sec=2940.76 qps=1462.48 link_recall=0
+QUERY 4403200 pairs=39739568 sec=3009.22 qps=1463.24 link_recall=0
+QUERY 4505600 pairs=40654500 sec=3077.27 qps=1464.15 link_recall=0
+QUERY 4608000 pairs=41579527 sec=3146.31 qps=1464.57 link_recall=0
+QUERY 4710400 pairs=42508623 sec=3217.08 qps=1464.18 link_recall=0
+QUERY 4812800 pairs=43430112 sec=3289.41 qps=1463.12 link_recall=0
+QUERY 4915200 pairs=44352009 sec=3373.78 qps=1456.88 link_recall=0
+QUERY 5017600 pairs=45278108 sec=3447.08 qps=1455.61 link_recall=0
+QUERY 5120000 pairs=46201222 sec=3517.38 qps=1455.63 link_recall=0
+QUERY 5222400 pairs=47116362 sec=3586.86 qps=1455.98 link_recall=0
+QUERY 5324800 pairs=48042315 sec=3657.17 qps=1455.99 link_recall=0
+QUERY 5427200 pairs=48963605 sec=3727.15 qps=1456.13 link_recall=0
+QUERY 5529600 pairs=49896740 sec=3798.42 qps=1455.76 link_recall=0
+QUERY 5632000 pairs=50808561 sec=3866.05 qps=1456.78 link_recall=0
+QUERY 5734400 pairs=51737186 sec=3935.1 qps=1457.24 link_recall=0
+QUERY 5836800 pairs=52653695 sec=4007.21 qps=1456.57 link_recall=0
+QUERY 5939200 pairs=53578524 sec=4072.4 qps=1458.4 link_recall=0
+QUERY 6041600 pairs=54499910 sec=4138.9 qps=1459.71 link_recall=0
+QUERY 6144000 pairs=55424420 sec=4211.89 qps=1458.73 link_recall=0
+QUERY 6246400 pairs=56345016 sec=4276.03 qps=1460.8 link_recall=0
+QUERY 6348800 pairs=57269130 sec=4336.15 qps=1464.15 link_recall=0
+QUERY 6451200 pairs=58192263 sec=4405.98 qps=1464.19 link_recall=0
+QUERY 6553600 pairs=59113472 sec=4466.99 qps=1467.12 link_recall=0
+QUERY 6656000 pairs=60031869 sec=4529.84 qps=1469.37 link_recall=0
+QUERY 6758400 pairs=60960241 sec=4594.18 qps=1471.08 link_recall=0
+QUERY 6860800 pairs=61883468 sec=4663.82 qps=1471.07 link_recall=0
+QUERY 6963200 pairs=62800553 sec=4728.57 qps=1472.58 link_recall=0
+QUERY 7065600 pairs=63730390 sec=4793.94 qps=1473.86 link_recall=0
+QUERY 7168000 pairs=64648318 sec=4853.07 qps=1477 link_recall=0
+QUERY 7270400 pairs=65564995 sec=4912.01 qps=1480.13 link_recall=0
+QUERY 7372800 pairs=66497508 sec=4975.75 qps=1481.75 link_recall=0
+QUERY 7475200 pairs=67414022 sec=5037.24 qps=1483.99 link_recall=0
+QUERY 7577600 pairs=68342992 sec=5107.38 qps=1483.66 link_recall=0
+QUERY 7680000 pairs=69260389 sec=5176.33 qps=1483.68 link_recall=0
+QUERY 7782400 pairs=70184370 sec=5251.09 qps=1482.06 link_recall=0
+QUERY 7884800 pairs=71105599 sec=5319.22 qps=1482.32 link_recall=0
+QUERY 7987200 pairs=72024447 sec=5392.07 qps=1481.29 link_recall=0
+QUERY 8089600 pairs=72952998 sec=5467.05 qps=1479.7 link_recall=0
+QUERY 8192000 pairs=73880746 sec=5534.46 qps=1480.18 link_recall=0
+QUERY 8294400 pairs=74794265 sec=5615.89 qps=1476.95 link_recall=0
+QUERY 8396800 pairs=75723121 sec=5766.01 qps=1456.26 link_recall=0
+QUERY 8499200 pairs=76639709 sec=5901.98 qps=1440.06 link_recall=0
+QUERY 8601600 pairs=77565975 sec=6035.26 qps=1425.22 link_recall=0
+QUERY 8704000 pairs=78490023 sec=6097.6 qps=1427.45 link_recall=0
+QUERY 8806400 pairs=79408599 sec=6134.13 qps=1435.64 link_recall=0
+QUERY 8908800 pairs=80336149 sec=6178 qps=1442.02 link_recall=0
+QUERY 9011200 pairs=81256821 sec=6241.77 qps=1443.69 link_recall=0
+QUERY 9113600 pairs=82176140 sec=6308.88 qps=1444.57 link_recall=0
+QUERY 9216000 pairs=83104465 sec=6386.58 qps=1443.02 link_recall=0
+QUERY 9318400 pairs=84023375 sec=6469.05 qps=1440.46 link_recall=0
+QUERY 9420800 pairs=84949561 sec=6546.2 qps=1439.13 link_recall=0
+QUERY 9523200 pairs=85872629 sec=6616.05 qps=1439.41 link_recall=0
+QUERY 9625600 pairs=86793751 sec=6686.25 qps=1439.61 link_recall=0
+QUERY 9728000 pairs=87714434 sec=6757.03 qps=1439.68 link_recall=0
+QUERY 9830400 pairs=88634136 sec=6827.17 qps=1439.89 link_recall=0
+QUERY 9932800 pairs=89564234 sec=6898.12 qps=1439.93 link_recall=0
+DONE queries=9969589 pairs=89878060 link_recall=0

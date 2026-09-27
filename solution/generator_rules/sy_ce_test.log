@@ -1,0 +1,14 @@
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 7676.14it/s]
+8192/95840 238 pairs/s
+16384/95840 234 pairs/s
+24576/95840 244 pairs/s
+32768/95840 251 pairs/s
+40960/95840 255 pairs/s
+49152/95840 257 pairs/s
+57344/95840 256 pairs/s
+65536/95840 258 pairs/s
+73728/95840 255 pairs/s
+81920/95840 256 pairs/s
+90112/95840 256 pairs/s
+95840/95840 256 pairs/s
+INFER_DONE /private/tmp/claude-501/fable_review/sy_ce_test.npy

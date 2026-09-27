@@ -1,0 +1,25 @@
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:   3%|▎         | 5/199 [00:00<00:12, 15.14it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 598.79it/s]
+test_s1 64000 / 220535 records_per_second 3052.0
+test_s1 128000 / 220535 records_per_second 3006.9
+test_s1 192000 / 220535 records_per_second 2941.6
+ENCODED test_s1 220535 seconds 76.44268918037415
+test_s2 64000 / 590854 records_per_second 2064.3
+test_s2 128000 / 590854 records_per_second 1887.1
+test_s2 192000 / 590854 records_per_second 1801.9
+test_s2 256000 / 590854 records_per_second 1759.7
+test_s2 320000 / 590854 records_per_second 1748.8
+test_s2 384000 / 590854 records_per_second 1725.7
+test_s2 448000 / 590854 records_per_second 1702.9
+test_s2 512000 / 590854 records_per_second 1683.1
+test_s2 576000 / 590854 records_per_second 1670.9
+ENCODED test_s2 590854 seconds 354.9730558395386
+test_s3 64000 / 629703 records_per_second 1594.6
+test_s3 128000 / 629703 records_per_second 1625.4
+test_s3 192000 / 629703 records_per_second 1622.6
+test_s3 256000 / 629703 records_per_second 1614.3
+test_s3 320000 / 629703 records_per_second 1604.8
+test_s3 384000 / 629703 records_per_second 1583.4
+test_s3 448000 / 629703 records_per_second 1556.7
+test_s3 512000 / 629703 records_per_second 1559.7
+test_s3 576000 / 629703 records_per_second 1560.8
+ENCODED test_s3 629703 seconds 405.25513195991516

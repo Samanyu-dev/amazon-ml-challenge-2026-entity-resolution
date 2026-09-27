@@ -1,0 +1,8 @@
+SCORED 2040059 targets 168721 seconds 3.1
+SCORED 4067961 targets 336488 seconds 6.0
+SCORED 6114033 targets 505746 seconds 9.1
+SCORED 8160471 targets 675049 seconds 12.1
+SCORED 10040520 targets 830622 seconds 14.9
+SCORED 12087258 targets 999936 seconds 18.0
+SCORED 14132708 targets 1169108 seconds 20.7
+SCORE_COMPLETE {'candidate_pairs': 14753863, 'target_groups': 1220557, 'target_universe': 1220557, 'anchor_universe': 220535, 'best_feature_indices': [0, 1, 8, 13, 14, 16, 24, 26, 37, 42, 43, 52], 'best_dtype': [('aid', '<i4'), ('aid2', '<i4'), ('owner', '<i4'), ('afold', '<i4'), ('tfold', '<i4'), ('p', '<f4'), ('p2', '<f4'), ('cos', '<f4'), ('route', '<i4'), ('f', '<f4', (12,))], 'seconds': 21.538064002990723, 'model': 'artifacts_v3/model/model.cbm', 'source_pair_dirs': ['artifacts_v3/test_pairs'], 'max_lexical_rank': None, 'dense_min_dice': None}

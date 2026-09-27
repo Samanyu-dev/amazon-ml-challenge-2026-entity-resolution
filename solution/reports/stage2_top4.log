@@ -1,0 +1,68 @@
+0:	learn: 0.5301825	test: 0.5302537	best: 0.5302537 (0)	total: 218ms	remaining: 7m 14s
+250:	learn: 0.0224946	test: 0.0229283	best: 0.0229283 (250)	total: 32.2s	remaining: 3m 44s
+Stopped by overfitting detector  (100 iterations wait)
+
+bestTest = 0.02283363452
+bestIteration = 384
+
+Shrink model to first 385 iterations.
+{
+  "knobs": {
+    "missing": 0.6,
+    "empty_scale": 4,
+    "min_margin": 0.015,
+    "floor": 0.0
+  },
+  "tuning_85_89": 0.987050450335242,
+  "importance": {
+    "p": 15.721332577637858,
+    "rank_p": 4.27199470612869,
+    "ce": 12.93129437726438,
+    "rank_ce": 5.006778368647935,
+    "other_p": 5.027215130024262,
+    "other_ce": 27.522628897136723,
+    "ce_gap": 4.492136680268844,
+    "p_gap": 2.9214405744423355,
+    "q_best": 22.105178688448973,
+    "n_cand": 0.0
+  },
+  "v3_decoder_90_99": {
+    "macro_f05": 0.9809203333879958,
+    "precision": 0.9939170884504719,
+    "recall": 0.9578608828662758,
+    "links": 737147,
+    "singleton_false_merges": 272,
+    "by_country": {
+      "India": 0.9762072102939925,
+      "US": 0.9840432513675579
+    }
+  },
+  "v4_top2_90_99": {
+    "macro_f05": 0.9869725359109747,
+    "precision": 0.9973853493216479,
+    "recall": 0.9664986697520574,
+    "links": 741208,
+    "singleton_false_merges": 156,
+    "by_country": {
+      "India": 0.9850924854726749,
+      "US": 0.9882182583754954
+    }
+  },
+  "top4_decoder_90_99": {
+    "macro_f05": 0.9870699816270712,
+    "precision": 0.9972952821144799,
+    "recall": 0.9670098510253041,
+    "links": 741667,
+    "singleton_false_merges": 141,
+    "by_country": {
+      "India": 0.9852542729067366,
+      "US": 0.9882730712335352
+    }
+  },
+  "paired_gain_vs_v3": {
+    "mean": 0.006149648239075503,
+    "se": 0.00012876407909657772
+  }
+}
+TEST_EXPORTED links 5847554
+EXIT 0

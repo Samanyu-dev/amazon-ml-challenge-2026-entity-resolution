@@ -1,0 +1,12 @@
+INDEXED France 220535 seconds 10.756313800811768
+ANN test 2 France 102400 qps 20979.2
+ANN test 2 France 204800 qps 21783.8
+ANN test 2 France 307200 qps 21873.1
+ANN test 2 France 409600 qps 22222.7
+ANN test 2 France 512000 qps 22364.0
+ANN test 3 France 102400 qps 23920.0
+ANN test 3 France 204800 qps 23632.5
+ANN test 3 France 307200 qps 23471.3
+ANN test 3 France 409600 qps 23447.4
+ANN test 3 France 512000 qps 23363.6
+ANN test 3 France 614400 qps 23442.9

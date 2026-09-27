@@ -1,0 +1,11 @@
+pairs 737,946 eligible 737,946; eval AUC 0.9997; positives in eval 117
+  th 0.50 tune gain +0.000033 added 1481
+  th 0.60 tune gain +0.000032 added 1349
+  th 0.70 tune gain +0.000032 added 1232
+  th 0.80 tune gain +0.000030 added 1107
+  th 0.85 tune gain +0.000030 added 1038
+  th 0.90 tune gain +0.000029 added 953
+  th 0.95 tune gain +0.000022 added 843
+  th 0.97 tune gain +0.000020 added 749
+REPORT th 0.5: 0.988409 -> 0.988433  gain +0.000024 ± 1.0e-05  P 0.99756
+TR_GATE_DONE

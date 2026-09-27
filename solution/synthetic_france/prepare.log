@@ -1,0 +1,8 @@
+train_s1 {'rows': 2206821, 'sha256': '591af0e1dfeb65cab71ea6ee8cb69df00f92d6ba6fa79e05746c938775d14973', 'file': 'train/train_source1.tsv', 'countries': {'US': 1323633, 'India': 883188}, 'unique_ids': 2206821} 0.5s
+train_s2 {'rows': 5034616, 'sha256': '6336c1a055eec79cf8a6d99fdc8d32a2e4d9dc2662e00963cb35d66b89ed09ed', 'file': 'train/train_source2.tsv', 'countries': {'US': 3016817, 'India': 2017799}, 'unique_ids': 5034616} 0.7s
+train_s3 {'rows': 5285603, 'sha256': '67da22f5151898ff3006febd836c1a159e97ae95efa7257a5aff4fda685e58e9', 'file': 'train/train_source3.tsv', 'countries': {'US': 3170056, 'India': 2115547}, 'unique_ids': 5285603} 1.0s
+test_s1 {'rows': 220535, 'sha256': '56921677823dd0a63fa17faed052dfcc7eee7dd1ea82cadd8b31c28465545ad1', 'file': 'test/test_source1.tsv', 'countries': {'France': 220535}, 'unique_ids': 220535} 1.3s
+test_s2 {'rows': 590854, 'sha256': 'd8387435b63ec7fec1fbe51c1e7fc87ca8a8e0029e388219964eeb431f20c592', 'file': 'test/test_source2.tsv', 'countries': {'France': 590854}, 'unique_ids': 590854} 1.8s
+test_s3 {'rows': 629703, 'sha256': '15d5af2b22f9eb2860d87de7ce46322b832a0376be386f12cdef7144537d3e71', 'file': 'test/test_source3.tsv', 'countries': {'France': 629703}, 'unique_ids': 629703} 2.3s
+LABEL_AUDIT {'truth_rows': 2206821, 'links': 7638365, 'duplicate_links': 0, 'shared_targets': 0, 'missing_references': 0, 'unknown_references': 0, 'unknown_targets': 0, 'country_mismatches': 0}
+INGEST_COMPLETE 3.0342841148376465

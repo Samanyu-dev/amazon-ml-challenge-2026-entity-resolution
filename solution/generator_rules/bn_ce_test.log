@@ -1,0 +1,15 @@
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 9300.83it/s]
+8192/347594 619 pairs/s
+16384/347594 629 pairs/s
+24576/347594 629 pairs/s
+32768/347594 632 pairs/s
+40960/347594 628 pairs/s
+49152/347594 627 pairs/s
+57344/347594 623 pairs/s
+65536/347594 621 pairs/s
+73728/347594 620 pairs/s
+81920/347594 614 pairs/s
+90112/347594 612 pairs/s
+98304/347594 608 pairs/s
+/opt/homebrew/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/resource_tracker.py:279: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

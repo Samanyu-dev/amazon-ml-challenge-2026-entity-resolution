@@ -1,0 +1,7 @@
+=== 16:29:11 score test
+=== 16:29:33 calibrate
+=== 16:29:35 ce export
+{"mode": "infer", "pairs": 744948, "positives": 0, "out": "ce/ce_infer_test.npz"}
+{"mode": "infer", "pairs": 2066860, "positives": 0, "out": "ce/ce_infer4_test.npz"}
+infer 744948 infer4 2066860 new 1321912
+=== 16:29:46 ce small

@@ -1,0 +1,98 @@
+OWNER_SPLIT fit rows 4429260 dev rows 619796
+DENSITY 0.19 removed anchors 419189 train_in_world True
+0:	learn: 0.5073283	test: 0.5063549	best: 0.5063549 (0)	total: 305ms	remaining: 10m 9s
+500:	learn: 0.0116129	test: 0.0081181	best: 0.0081181 (433)	total: 3m 1s	remaining: 9m 2s
+Stopped by overfitting detector  (100 iterations wait)
+
+bestTest = 0.008118094698
+bestIteration = 433
+
+Shrink model to first 434 iterations.
+{
+  "knobs": {
+    "missing": 0.25,
+    "empty_scale": 4,
+    "min_margin": 0.015,
+    "floor": 0.0
+  },
+  "tuning_85_89": 0.9884245525385652,
+  "importance": {
+    "p": 16.85651602444515,
+    "rank_p": 4.318153336227328,
+    "ce": 2.11231446782665,
+    "rank_ce": 2.895408790725806,
+    "other_p": 1.803436286765792,
+    "other_ce": 2.98930982296031,
+    "ce_gap": 1.3752022573649023,
+    "p_gap": 2.5480200987832573,
+    "q_best": 16.697504905863706,
+    "n_cand": 0.0,
+    "ce2": 1.017368623713068,
+    "other_ce2": 2.0863474656672194,
+    "ce_gap2": 0.8955701625190673,
+    "has_ce2": 0.3170063499567559,
+    "ce3": 1.706297006125271,
+    "other_ce3": 2.587913568334154,
+    "ce_gap3": 0.8260864759419905,
+    "has_ce3": 0.0018136769101343509,
+    "ce4": 6.379845847068695,
+    "other_ce4": 4.542810601987839,
+    "ce_gap4": 2.5727483415404793,
+    "has_ce4": 0.0,
+    "conf_all": 2.935975000179139,
+    "conf_same_src": 2.3062621194880575,
+    "sibling_name_eq": 0.31387566602918904,
+    "target_no_addr": 2.601301132381233,
+    "twins_other_src": 1.26612261166917,
+    "twins_same_src": 0.4667468070228693,
+    "addr_crowding": 6.2914364311771225,
+    "addr_missing": 5.67907379963199,
+    "anchor_load": 3.5321825477284463,
+    "twins_confident_same_anchor": 0.07734977396523465
+  },
+  "v3_decoder_90_99": {
+    "macro_f05": 0.9808850153383495,
+    "precision": 0.9938886574620112,
+    "recall": 0.9576565713880417,
+    "links": 597741,
+    "singleton_false_merges": 220,
+    "by_country": {
+      "India": 0.9762299675608687,
+      "US": 0.9839768130730274
+    }
+  },
+  "v5_90_99": {
+    "macro_f05": 0.9870699816270712,
+    "precision": 0.9972952821144799,
+    "recall": 0.9670098510253041,
+    "links": 741667,
+    "singleton_false_merges": 141,
+    "by_country": {
+      "India": 0.9852542729067366,
+      "US": 0.9882730712335352
+    }
+  },
+  "v6_90_99": {
+    "macro_f05": 0.9883796502527609,
+    "precision": 0.9974736305006519,
+    "recall": 0.9705846320499842,
+    "links": 603633,
+    "singleton_false_merges": 75,
+    "by_country": {
+      "India": 0.9865465824671426,
+      "US": 0.9895971404049572
+    }
+  },
+  "paired_gain_vs_v3": {
+    "mean": 0.007494634914411393,
+    "se": 0.00014999732107743644
+  },
+  "paired_gain_vs_reference": {
+    "reference": "artifacts_v3/stage2_v6/val_entity_f.npy",
+    "mean": 0.0,
+    "se": 0.0,
+    "better": 0,
+    "worse": 0
+  }
+}
+DONE
